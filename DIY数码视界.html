@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer"> 
+    <title>极客视界 | 开源聚合</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.0/github-markdown-dark.min.css">
+
+    <style>
+        /* ========== 全局重置与基础样式 ========== */
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg-primary: #0d1117; --bg-secondary: #161b22; --bg-card: #1c2333;
+            --bg-card-hover: #212a3b; --border-color: #30363d; --text-primary: #e6edf3;
+            --text-secondary: #8b949e; --accent: #2ea043; 
+            --accent-glow: rgba(46, 160, 67, 0.3);
+            --github-color: #24292e; --tag-bg: #1f2937; --tag-text: #58a6ff;
+            --radius: 12px; --radius-sm: 6px; --transition: 0.25s ease;
+        }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background-color: var(--bg-primary); color: var(--text-primary); min-height: 100vh; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+        
+        .navbar { position: sticky; top: 0; z-index: 100; background: rgba(13, 17, 23, 0.85); backdrop-filter: blur(16px); border-bottom: 1px solid var(--border-color); padding: 0 24px; height: 60px; display: flex; align-items: center; justify-content: space-between; }
+        .navbar-brand { font-size: 1.35rem; font-weight: 700; background: linear-gradient(135deg, #58a6ff, var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; white-space: nowrap; }
+        
+        /* 搜索区 */
+        .search-wrapper { padding: 20px 24px 0; max-width: 1400px; margin: 0 auto; display: flex; gap: 15px; align-items: center; flex-wrap: wrap; }
+        .search-input-wrapper { position: relative; flex: 1; min-width: 250px; max-width: 480px; }
+        .search-icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--text-secondary); font-size: 1rem; pointer-events: none; }
+        .search-input { width: 100%; padding: 10px 16px 10px 40px; border-radius: 24px; border: 1px solid var(--border-color); background: var(--bg-secondary); color: var(--text-primary); font-size: 0.95rem; outline: none; transition: all var(--transition); }
+        .search-input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow); }
+        .toggle-btn { padding: 9px 18px; border-radius: 24px; border: 1px solid var(--accent); background: transparent; color: var(--accent); font-weight: 600; cursor: pointer; transition: all 0.2s; white-space: nowrap; }
+        .toggle-btn:hover, .toggle-btn.active { background: var(--accent); color: #fff; }
+
+        /* 可视化图表区 */
+        .chart-container { width: 100%; max-width: 1400px; margin: 20px auto 0; height: 0; opacity: 0; overflow: hidden; background: var(--bg-secondary); border-radius: var(--radius); border: 1px solid transparent; transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+        .chart-container.active { height: 300px; opacity: 1; border-color: var(--border-color); margin-bottom: 10px; padding: 15px; }
+
+        .controls-wrapper { display: flex; justify-content: space-between; align-items: center; max-width: 1400px; margin: 0 auto; padding: 16px 24px; gap: 16px; }
+        .filter-bar { display: flex; flex: 1; overflow-x: auto; gap: 10px; padding-bottom: 4px; scrollbar-width: none; }
+        .filter-bar::-webkit-scrollbar { display: none; }
+        .filter-btn { padding: 7px 18px; border-radius: 20px; border: 1px solid var(--border-color); background: var(--bg-secondary); color: var(--text-secondary); font-size: 0.9rem; cursor: pointer; transition: all var(--transition); white-space: nowrap; user-select: none; flex-shrink: 0; }
+        .filter-btn:hover { border-color: var(--accent); color: var(--text-primary); }
+        .filter-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); font-weight: 600; box-shadow: 0 0 12px var(--accent-glow); }
+        .filter-btn[data-category="⭐ 我的收藏"] { border-color: #d29922; color: #d29922; }
+        .filter-btn[data-category="⭐ 我的收藏"].active { background: #d29922; color: #0d1117; box-shadow: 0 0 12px rgba(210, 153, 34, 0.3); }
+        
+        .sort-select { padding: 8px 14px; border-radius: 20px; background: var(--bg-secondary); border: 1px solid var(--border-color); color: var(--text-primary); font-size: 0.9rem; outline: none; cursor: pointer; }
+
+        /* ========== 项目卡片 ========== */
+        .video-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; padding: 8px 24px; max-width: 1400px; margin: 0 auto; }
+        .video-card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius); overflow: hidden; cursor: pointer; transition: all var(--transition); display: flex; flex-direction: column; position: relative; }
+        .video-card:hover { transform: translateY(-4px); border-color: var(--accent); box-shadow: 0 8px 30px rgba(46, 160, 67, 0.15); }
+        
+        .card-thumbnail { position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; background: #010409; display: flex; align-items: center; justify-content: center; }
+        .card-thumbnail::before { content: ''; position: absolute; inset: -20px; background: inherit; filter: blur(15px); opacity: 0.5; z-index: 0; }
+        .card-thumbnail img { height: 80%; object-fit: contain; border-radius: 50%; border: 2px solid var(--border-color); z-index: 1; transition: transform 0.4s ease; }
+        .video-card:hover .card-thumbnail img { transform: scale(1.1); border-color: var(--accent); }
+        
+        .platform-badge { position: absolute; top: 10px; right: 10px; padding: 4px 10px; border-radius: var(--radius-sm); font-size: 0.78rem; font-weight: 600; pointer-events: none; z-index: 2; background: var(--github-color); color: #fff; border: 1px solid #444; }
+        .bookmark-btn { position: absolute; top: 10px; left: 10px; width: 32px; height: 32px; border-radius: 50%; background: rgba(0,0,0,0.6); color: #fff; border: 1px solid #444; display: flex; align-items: center; justify-content: center; z-index: 3; font-size: 1.1rem; cursor: pointer; transition: all 0.2s ease; backdrop-filter: blur(4px); }
+        .bookmark-btn:hover { transform: scale(1.1); background: rgba(0,0,0,0.8); }
+        .bookmark-btn.saved { color: #d29922; border-color: #d29922; }
+        .star-badge { position: absolute; bottom: 10px; right: 10px; padding: 4px 10px; border-radius: var(--radius-sm); background: rgba(0,0,0,0.8); color: #e3b341; font-size: 0.8rem; font-weight: 600; z-index: 2; display: flex; align-items: center; gap: 4px;}
+        
+        .card-body { padding: 16px; flex: 1; display: flex; flex-direction: column; gap: 8px; }
+        .card-title { font-size: 1.05rem; font-weight: 700; color: #58a6ff; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .card-desc { font-size: 0.85rem; color: var(--text-secondary); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.5; }
+        .card-meta { display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem; color: var(--text-secondary); margin-top: 4px; }
+        .card-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; padding-top: 8px; border-top: 1px dashed var(--border-color);}
+        .card-tag { padding: 3px 10px; border-radius: 12px; background: var(--tag-bg); color: var(--tag-text); font-size: 0.72rem; white-space: nowrap; border: 1px solid rgba(88, 166, 255, 0.2); }
+        
+        .empty-state { grid-column: 1 / -1; text-align: center; padding: 60px 20px; color: var(--text-secondary); }
+        .pagination { display: flex; justify-content: center; align-items: center; gap: 8px; padding: 30px 24px 60px; flex-wrap: wrap; }
+        .page-btn { padding: 6px 14px; border-radius: 8px; background: var(--bg-secondary); border: 1px solid var(--border-color); color: var(--text-primary); cursor: pointer; transition: all var(--transition); font-size: 0.9rem; }
+        .page-btn:hover:not(:disabled) { border-color: var(--accent); color: var(--text-primary); }
+        .page-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); font-weight: bold; pointer-events: none; }
+        .page-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+        /* ========== Readme 模态窗口 ========== */
+        .modal-overlay { position: fixed; inset: 0; z-index: 1000; background: var(--modal-overlay); backdrop-filter: blur(6px); display: flex; align-items: center; justify-content: center; opacity: 0; visibility: hidden; transition: all 0.3s ease; }
+        .modal-overlay.active { opacity: 1; visibility: visible; }
+        .modal-dialog { position: relative; width: 95%; max-width: 1100px; height: 90vh; background: var(--bg-primary); border-radius: var(--radius); border: 1px solid var(--border-color); box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8); overflow: hidden; transform: scale(0.9); transition: transform 0.3s ease; display: flex; flex-direction: column; }
+        .modal-overlay.active .modal-dialog { transform: scale(1); }
+        .modal-header { display: flex; align-items: center; justify-content: space-between; padding: 16px 24px; border-bottom: 1px solid var(--border-color); background: var(--bg-secondary); }
+        .modal-title { font-size: 1.1rem; font-weight: 700; color: var(--text-primary); flex: 1; display: flex; align-items: center; gap: 10px;}
+        .modal-title a { color: #58a6ff; text-decoration: none; font-size: 0.9rem; font-weight: normal; border: 1px solid var(--border-color); padding: 4px 10px; border-radius: 12px; }
+        .modal-title a:hover { border-color: #58a6ff; background: rgba(88, 166, 255, 0.1); }
+        .modal-close { width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--border-color); background: transparent; color: var(--text-secondary); font-size: 1.2rem; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all var(--transition); }
+        .modal-close:hover { background: rgba(255, 255, 255, 0.08); color: var(--text-primary); border-color: var(--accent); }
+        
+        .modal-body { flex: 1; overflow-y: auto; padding: 40px; background: var(--bg-primary); scroll-behavior: smooth; }
+        .modal-body::-webkit-scrollbar { width: 8px; }
+        .modal-body::-webkit-scrollbar-thumb { background: #444; border-radius: 4px; }
+        
+        @media (max-width: 768px) { 
+            .navbar { padding: 0 16px; height: 52px; } 
+            .controls-wrapper { flex-direction: column; align-items: stretch; padding: 12px 16px; gap: 12px; }
+            .sort-select { align-self: flex-end; width: 140px; }
+            .video-grid { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); } 
+            .modal-body { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar"><span class="navbar-brand">💻 极客视界 | 开源聚合</span></nav>
+    
+    <div class="search-wrapper">
+        <div class="search-input-wrapper">
+            <span class="search-icon">🔍</span>
+            <input type="text" class="search-input" id="searchInput" placeholder="搜索项目名称或作者..." autocomplete="off">
+        </div>
+        <button class="toggle-btn" id="toggleChartBtn">📊 技术雷达</button>
+    </div>
+
+    <div class="chart-container" id="chartContainer">
+        <div id="techChart" style="width: 100%; height: 100%;"></div>
+    </div>
+
+    <div class="controls-wrapper">
+        <div class="filter-bar" id="filterBar"></div>
+        <select class="sort-select" id="sortSelect">
+            <option value="time-desc">最近更新</option>
+            <option value="stars-desc">最多 Star ⭐</option>
+            <option value="title-asc">项目名称 (A-Z)</option>
+        </select>
+    </div>
+
+    <div class="video-grid" id="videoGrid"></div>
+    <div class="pagination" id="pagination"></div>
+
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <div class="modal-title" id="modalTitle">
+                    <span id="modalRepoName">README</span>
+                    <a href="#" id="modalOriginLink" target="_blank">前往 GitHub ↗</a>
+                </div>
+                <button class="modal-close" id="modalClose" title="关闭">✕</button>
+            </div>
+            <div class="modal-body markdown-body" id="modalBody"></div>
+        </div>
+    </div>
+
+    <script>
+    (function () {
+        'use strict';
+        var projects = [];
+        var favorites = JSON.parse(localStorage.getItem('diy_favorites') || '[]');
+        var eChartInstance = null;
+        var chartInitialized = false;
+        
+        var state = { category: '全部', search: '', sort: 'time-desc', page: 1, pageSize: 6 };
+        var DOM = {
+            videoGrid: document.getElementById('videoGrid'), searchInput: document.getElementById('searchInput'),
+            filterBar: document.getElementById('filterBar'), sortSelect: document.getElementById('sortSelect'),
+            pagination: document.getElementById('pagination'), toggleChartBtn: document.getElementById('toggleChartBtn'),
+            chartContainer: document.getElementById('chartContainer'), techChart: document.getElementById('techChart'),
+            modalOverlay: document.getElementById('modalOverlay'), modalRepoName: document.getElementById('modalRepoName'),
+            modalBody: document.getElementById('modalBody'), modalClose: document.getElementById('modalClose'),
+            modalOriginLink: document.getElementById('modalOriginLink')
+        };
+
+        fetch('data.json')
+            .then(response => { if (!response.ok) throw new Error(); return response.json(); })
+            .then(data => { projects = data; generateDynamicTags(); updateView(); })
+            .catch(error => { DOM.videoGrid.innerHTML = '<div class="empty-state"><p>数据加载失败，请确保使用 Live Server 运行。</p></div>'; });
+
+        function initChart() {
+            if (!projects.length) return;
+            eChartInstance = echarts.init(DOM.techChart, 'dark');
+            
+            var tagCounts = {};
+            projects.forEach(function(proj) {
+                (proj.tags || []).forEach(function(tag) {
+                    tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+                });
+            });
+
+            var chartData = Object.keys(tagCounts).map(function(k) {
+                return { name: k, value: tagCounts[k] };
+            }).sort(function(a, b) { return b.value - a.value; }).slice(0, 15);
+
+            var option = {
+                backgroundColor: 'transparent',
+                tooltip: { trigger: 'item', formatter: '{b}: {c}个项目 ({d}%)' },
+                legend: { top: 'center', right: '5%', orient: 'vertical', textStyle: { color: '#8b949e' } },
+                series: [
+                    {
+                        name: '技术栈分布',
+                        type: 'pie',
+                        radius: ['45%', '80%'], 
+                        center: ['35%', '50%'],
+                        avoidLabelOverlap: true,
+                        itemStyle: { borderRadius: 5, borderColor: '#161b22', borderWidth: 2 },
+                        label: { show: false }, 
+                        data: chartData
+                    }
+                ]
+            };
+            eChartInstance.setOption(option);
+        }
+
+        DOM.toggleChartBtn.addEventListener('click', function() {
+            var isActive = DOM.chartContainer.classList.contains('active');
+            if (isActive) {
+                DOM.chartContainer.classList.remove('active');
+                DOM.toggleChartBtn.classList.remove('active');
+            } else {
+                DOM.chartContainer.classList.add('active');
+                DOM.toggleChartBtn.classList.add('active');
+                
+                setTimeout(function() {
+                    if (!chartInitialized) {
+                        initChart();
+                        chartInitialized = true;
+                    } else {
+                        eChartInstance.resize();
+                    }
+                }, 300);
+            }
+        });
+
+        window.addEventListener('resize', function() {
+            if (chartInitialized && DOM.chartContainer.classList.contains('active')) {
+                eChartInstance.resize();
+            }
+        });
+
+        function generateDynamicTags() {
+            var tagSet = new Set();
+            projects.forEach(function(proj) {
+                if (proj.tags) proj.tags.forEach(tag => tagSet.add(tag));
+            });
+            var sortedTags = Array.from(tagSet).sort((a, b) => a.localeCompare(b, 'en-US'));
+            
+            var html = '<button class="filter-btn ' + (state.category === '全部' ? 'active' : '') + '" data-category="全部">全部</button>';
+            html += '<button class="filter-btn ' + (state.category === '⭐ 我的收藏' ? 'active' : '') + '" data-category="⭐ 我的收藏">⭐ 我的收藏</button>';
+            sortedTags.forEach(function(tag) {
+                html += '<button class="filter-btn ' + (state.category === tag ? 'active' : '') + '" data-category="' + escapeHTML(tag) + '">' + escapeHTML(tag) + '</button>';
+            });
+            DOM.filterBar.innerHTML = html;
+        }
+
+        function updateView() {
+            var filtered = projects.filter(function (proj) {
+                if (state.category === '⭐ 我的收藏') {
+                    if (favorites.indexOf(proj.bvid) === -1) return false;
+                } else {
+                    if (state.category !== '全部' && (!proj.tags || proj.tags.indexOf(state.category) === -1)) return false;
+                }
+                if (state.search.trim() !== '') {
+                    var keyword = state.search.trim().toLowerCase();
+                    return proj.title.toLowerCase().indexOf(keyword) !== -1 || proj.author.toLowerCase().indexOf(keyword) !== -1;
+                }
+                return true;
+            });
+
+            filtered.sort(function(a, b) {
+                if (state.sort === 'title-asc') return a.title.localeCompare(b.title, 'en-US');
+                if (state.sort === 'stars-desc') return (b.stars || 0) - (a.stars || 0);
+                var timeA = a.publish_time ? new Date(a.publish_time).getTime() : 0;
+                var timeB = b.publish_time ? new Date(b.publish_time).getTime() : 0;
+                return timeB - timeA;
+            });
+
+            var totalPages = Math.ceil(filtered.length / state.pageSize) || 1;
+            if (state.page > totalPages) state.page = totalPages;
+
+            var startIndex = (state.page - 1) * state.pageSize;
+            renderCards(filtered.slice(startIndex, startIndex + state.pageSize));
+            renderPagination(totalPages);
+        }
+
+        function renderCards(dataList) {
+            DOM.videoGrid.innerHTML = '';
+            if (dataList.length === 0) {
+                DOM.videoGrid.innerHTML = '<div class="empty-state">📭<p>没有找到匹配的项目</p></div>';
+                return;
+            }
+
+            dataList.forEach(function (proj) {
+                var card = document.createElement('div');
+                card.className = 'video-card';
+                card.dataset.url = proj.url;
+                card.dataset.author = proj.author;
+                card.dataset.title = proj.title;
+                
+                var isSaved = favorites.indexOf(proj.bvid) !== -1;
+                var shortTime = proj.publish_time ? proj.publish_time.split(' ')[0] : '未知';
+                var tagsHTML = (proj.tags || []).map(tag => '<span class="card-tag">' + escapeHTML(tag) + '</span>').join('');
+
+                card.innerHTML =
+                    '<div class="card-thumbnail" style="background-image: url(' + (proj.cover || '') + '); background-size: cover; background-position: center;">' +
+                        '<img src="' + (proj.cover || '') + '" alt="Avatar" loading="lazy">' +
+                        '<div class="bookmark-btn ' + (isSaved ? 'saved' : '') + '" data-bvid="' + proj.bvid + '">' + (isSaved ? '★' : '☆') + '</div>' +
+                        '<span class="platform-badge github">GitHub</span>' +
+                        '<span class="star-badge">★ ' + (proj.stars || 0) + '</span>' +
+                    '</div>' +
+                    '<div class="card-body">' +
+                        '<h3 class="card-title">' + escapeHTML(proj.title) + '</h3>' +
+                        '<p class="card-desc">' + escapeHTML(proj.description) + '</p>' +
+                        '<div class="card-meta"><span>👤 ' + escapeHTML(proj.author) + '</span><span>更新: ' + shortTime + '</span></div>' +
+                        '<div class="card-tags">' + tagsHTML + '</div>' +
+                    '</div>';
+
+                DOM.videoGrid.appendChild(card);
+            });
+        }
+
+        function renderPagination(totalPages) {
+            if (totalPages <= 1) { DOM.pagination.innerHTML = ''; return; }
+            var html = '<button class="page-btn" data-page="prev" ' + (state.page === 1 ? 'disabled' : '') + '>上一页</button>';
+            for (var i = 1; i <= totalPages; i++) html += '<button class="page-btn ' + (i === state.page ? 'active' : '') + '" data-page="' + i + '">' + i + '</button>';
+            html += '<button class="page-btn" data-page="next" ' + (state.page === totalPages ? 'disabled' : '') + '>下一页</button>';
+            DOM.pagination.innerHTML = html;
+        }
+
+        DOM.filterBar.addEventListener('click', function (e) {
+            var btn = e.target.closest('.filter-btn');
+            if (!btn) return;
+            state.category = btn.dataset.category; state.page = 1; generateDynamicTags(); updateView(); 
+        });
+
+        DOM.searchInput.addEventListener('input', function () { state.search = DOM.searchInput.value; state.page = 1; updateView(); });
+        DOM.sortSelect.addEventListener('change', function(e) { state.sort = e.target.value; state.page = 1; updateView(); });
+        DOM.pagination.addEventListener('click', function(e) {
+            var btn = e.target.closest('.page-btn');
+            if (!btn || btn.disabled || btn.classList.contains('active')) return;
+            state.page = btn.dataset.page === 'prev' ? state.page - 1 : (btn.dataset.page === 'next' ? state.page + 1 : parseInt(btn.dataset.page, 10));
+            updateView(); window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        DOM.videoGrid.addEventListener('click', function (e) {
+            var bookmarkBtn = e.target.closest('.bookmark-btn');
+            if (bookmarkBtn) {
+                e.stopPropagation();
+                var bvid = bookmarkBtn.dataset.bvid;
+                var index = favorites.indexOf(bvid);
+                index === -1 ? favorites.push(bvid) : favorites.splice(index, 1);
+                localStorage.setItem('diy_favorites', JSON.stringify(favorites));
+                updateView();
+                return;
+            }
+
+            var card = e.target.closest('.video-card');
+            if (card) {
+                openReadmeModal(card.dataset.author, card.dataset.title, card.dataset.url);
+            }
+        });
+
+        function openReadmeModal(author, repoName, url) {
+            DOM.modalRepoName.textContent = author + ' / ' + repoName;
+            DOM.modalOriginLink.href = url;
+            DOM.modalBody.innerHTML = '<div style="text-align:center; padding: 40px; color: var(--text-secondary);">正在拉取底层文档...</div>';
+            DOM.modalOverlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+
+            var rawUrlMain = 'https://raw.githubusercontent.com/' + author + '/' + repoName + '/main/README.md';
+            var rawUrlMaster = 'https://raw.githubusercontent.com/' + author + '/' + repoName + '/master/README.md';
+
+            fetch(rawUrlMain)
+                .then(res => {
+                    if (res.ok) return res.text();
+                    return fetch(rawUrlMaster).then(r => {
+                        if (r.ok) return r.text();
+                        throw new Error('No README found');
+                    });
+                })
+                .then(text => {
+                    DOM.modalBody.innerHTML = marked.parse(text);
+                })
+                .catch(err => {
+                    DOM.modalBody.innerHTML = '<div style="text-align:center; padding: 40px; color: #ff7b72;">拉取失败。可能该项目无 README，或使用了非默认分支。</div>';
+                });
+        }
+
+        function closeModal() {
+            DOM.modalOverlay.classList.remove('active');
+            document.body.style.overflow = '';
+            setTimeout(function () { DOM.modalBody.innerHTML = ''; }, 300);
+        }
+
+        DOM.modalClose.addEventListener('click', closeModal);
+        DOM.modalOverlay.addEventListener('click', function (e) { if (e.target === DOM.modalOverlay) closeModal(); });
+        document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && DOM.modalOverlay.classList.contains('active')) closeModal(); });
+
+        function escapeHTML(str) {
+            var div = document.createElement('div'); div.appendChild(document.createTextNode(str)); return div.innerHTML;
+        }
+    })();
+    </script>
+</body>
+</html>
