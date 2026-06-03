@@ -1,0 +1,34 @@
+name: Auto Fetch Geek Data
+
+# 触发条件配置
+on:
+  schedule:
+    # 定时任务：每天 UTC 时间 0 点（北京时间早上 8 点）自动执行
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 允许你在网页端随时手动点击运行测试
+
+# 赋予自动提交代码的权限（极其重要，否则无法保存新数据）
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest # 使用最新版 Ubuntu 虚拟环境
+
+    steps:
+      - name: ⬇️ 检出代码
+        uses: actions/checkout@v3
+
+      - name: ⚙️ 配置 Node.js 环境
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18' # 使用 Node.js 18+ 以支持原生的 fetch API
+
+      - name: 🚀 执行抓取脚本
+        run: node fetch_geek.js
+
+      - name: 💾 提交并推送最新数据
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto update geek data [skip ci]"
+          file_pattern: data.json # 只监控并提交 data.json 文件的变化
