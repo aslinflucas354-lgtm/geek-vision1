@@ -18,7 +18,7 @@ async function fetchGitHubProjects() {
     
     // 拼接查询语句 (此时恰好有 4 个 OR，完全符合 GitHub API 规范)
     const query = encodeURIComponent(keywords.join(' OR '));
-    const url = `https://api.github.com/search/repositories?q=${query}&sort=updated&order=desc&per_page=30`;
+    const url = `https://api.github.com/search/repositories?q=${query}&sort=updated&order=desc&per_page=100`;
 
     try {
         const response = await fetch(url, {
