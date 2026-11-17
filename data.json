@@ -1,135 +1,239 @@
 [
   {
-    "title": "hvac-linux-driver",
-    "description": "Linux I2C/IIO temperature-sensor driver, hardware-free test suite and HVAC thermostat daemon, built with Buildroot and tested in ARM64 QEMU",
-    "author": "Prince4552",
+    "title": "Summer2027-Internships",
+    "description": "Summer 2027 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC.",
+    "author": "SimplifyJobs",
     "platform": "github",
-    "bvid": "1459229546",
-    "url": "https://github.com/Prince4552/hvac-linux-driver",
+    "bvid": "266417772",
+    "url": "https://github.com/SimplifyJobs/Summer2027-Internships",
+    "tags": [
+      "data-science",
+      "fall-2026",
+      "github"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/63759855?v=4",
+    "publish_time": "2026/11/17 06:26:15",
+    "stars": 48431
+  },
+  {
+    "title": "athena",
+    "description": "AI-powered home and PC assistant hosted on a Raspberry Pi 5 that enables voice-controlled smart-home automation and contextual control of PC applications, resources, and hardware.",
+    "author": "b-stha",
+    "platform": "github",
+    "bvid": "1352774083",
+    "url": "https://github.com/b-stha/athena",
     "tags": [
       "开源工程"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/86725695?v=4",
-    "publish_time": "2026/11/15 20:48:43",
+    "cover": "https://avatars.githubusercontent.com/u/114557980?v=4",
+    "publish_time": "2026/10/2 01:12:54",
     "stars": 0
   },
   {
-    "title": "ms2000r-emu",
-    "description": "KORG MS2000R hardware emulator (H8S/2350 + DSP56362): standalone and VST3. Bring your own firmware.",
-    "author": "Tuth",
+    "title": "amr_stm32",
+    "description": "AMR Hardware & PCB Design: Low-level controller board and hardware system (STM32 / KiCad) engineered as the foundation for future ROS 2, SLAM, and autonomous navigation integration.",
+    "author": "hongtannnn",
     "platform": "github",
-    "bvid": "1398578072",
-    "url": "https://github.com/Tuth/ms2000r-emu",
+    "bvid": "1366500026",
+    "url": "https://github.com/hongtannnn/amr_stm32",
     "tags": [
       "开源工程"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/11045506?v=4",
-    "publish_time": "2026/11/15 08:08:34",
-    "stars": 136
-  },
-  {
-    "title": "coolercontrol-msi-mysticlight",
-    "description": "CoolerControl plugin for MSI Mystic Light ARGB headers (JRAINBOW1/2) on Linux: fixed colour, off and 23 hardware effects, never writes flash (Rust)",
-    "author": "Njcki",
-    "platform": "github",
-    "bvid": "1459580205",
-    "url": "https://github.com/Njcki/coolercontrol-msi-mysticlight",
-    "tags": [
-      "argb",
-      "coolercontrol",
-      "coolercontrol-plugin"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/2878060?v=4",
-    "publish_time": "2026/11/16 05:24:12",
-    "stars": 0
-  },
-  {
-    "title": "Control-Difuso-Velocidad-Motor-DC-MATLAB-Simulink-Arduino",
-    "description": "Actividad 2 Control Avanzado (MTR09C UPA): Control difuso de velocidad de un motor de CD con encoder en MATLAB, 3 modelos de Simulink y Arduino UNO",
-    "author": "JK897933",
-    "platform": "github",
-    "bvid": "1459190568",
-    "url": "https://github.com/JK897933/Control-Difuso-Velocidad-Motor-DC-MATLAB-Simulink-Arduino",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/326276330?v=4",
-    "publish_time": "2026/11/15 19:59:33",
-    "stars": 0
-  },
-  {
-    "title": "VariaxWorkbench",
-    "description": "Rust offline editor and reverse-engineering toolkit for the original Variax 600 through PODxt Live; hardware access locked.",
-    "author": "guirossibrum",
-    "platform": "github",
-    "bvid": "1458852064",
-    "url": "https://github.com/guirossibrum/VariaxWorkbench",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/162785699?v=4",
-    "publish_time": "2026/11/15 14:43:33",
+    "cover": "https://avatars.githubusercontent.com/u/268503693?v=4",
+    "publish_time": "2026/10/28 09:39:13",
     "stars": 2
   },
   {
-    "title": "arx-ros2-control",
-    "description": "ROS2-Control Hardware Interface",
-    "author": "fiveages-sim",
+    "title": "suzyqboard",
+    "description": "An open Suzy-Q to hack your Chromebook with.",
+    "author": "FyraLabs",
     "platform": "github",
-    "bvid": "1154315048",
-    "url": "https://github.com/fiveages-sim/arx-ros2-control",
+    "bvid": "748927999",
+    "url": "https://github.com/FyraLabs/suzyqboard",
     "tags": [
-      "开源工程"
+      "chromebook",
+      "chromeos",
+      "chrultrabook"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/219970320?v=4",
-    "publish_time": "2026/8/14 10:04:59",
-    "stars": 2
+    "cover": "https://avatars.githubusercontent.com/u/102442142?v=4",
+    "publish_time": "2026/11/17 07:02:32",
+    "stars": 28
   },
   {
-    "title": "Echoes-Beyond-Earth-A-Hardware-Time-Capsule",
-    "description": "暂无描述",
-    "author": "7-echo",
+    "title": "opendevicecontrol",
+    "description": "Monitor and control your PC's hardware and peripherals on Windows and Linux, with Home Assistant integration",
+    "author": "skylord123",
     "platform": "github",
-    "bvid": "1459579555",
-    "url": "https://github.com/7-echo/Echoes-Beyond-Earth-A-Hardware-Time-Capsule",
+    "bvid": "1460854634",
+    "url": "https://github.com/skylord123/opendevicecontrol",
     "tags": [
       "开源工程"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/178811040?v=4",
-    "publish_time": "2026/11/16 05:23:11",
+    "cover": "https://avatars.githubusercontent.com/u/3412313?v=4",
+    "publish_time": "2026/11/17 03:16:07",
     "stars": 0
   },
   {
-    "title": "poki",
-    "description": "Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware.",
-    "author": "JosssphZhou",
+    "title": "zlt-s12-pro-dev",
+    "description": "Dev Documentations on ZLT-S12-Pro Router and its modems/hardware",
+    "author": "udaravima",
     "platform": "github",
-    "bvid": "1447145240",
-    "url": "https://github.com/JosssphZhou/poki",
+    "bvid": "1410692593",
+    "url": "https://github.com/udaravima/zlt-s12-pro-dev",
     "tags": [
-      "ai-agents",
-      "automation",
-      "ios"
+      "开源工程"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/260232027?v=4",
-    "publish_time": "2026/11/16 05:24:31",
-    "stars": 1368
+    "cover": "https://avatars.githubusercontent.com/u/29008643?v=4",
+    "publish_time": "2026/11/4 18:58:50",
+    "stars": 0
   },
   {
-    "title": "UniLab",
-    "description": "UniLab: Contract-driven infrastructure for robot learning across physics backends and hardware ",
-    "author": "Motphys",
+    "title": "esp32king",
+    "description": "esp32king is an independent hardware and cybersecurity developer known on social media as Krishna UPX61, specialising in offensive security firmware and wireless testing utilities for the ESP32 microcontroller. Because the developer operates under an alias for privacy, there are no public corporate records,",
+    "author": "godxkrishna1",
     "platform": "github",
-    "bvid": "1149416836",
-    "url": "https://github.com/Motphys/UniLab",
+    "bvid": "1461018478",
+    "url": "https://github.com/godxkrishna1/esp32king",
     "tags": [
-      "cross-platform",
-      "cuda",
-      "flashsac"
+      "开源工程"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/161447780?v=4",
-    "publish_time": "2026/11/16 04:24:08",
-    "stars": 1008
+    "cover": "https://avatars.githubusercontent.com/u/336789910?v=4",
+    "publish_time": "2026/11/17 06:40:55",
+    "stars": 0
+  },
+  {
+    "title": ".github",
+    "description": "Organization profile and community files for Kleidos",
+    "author": "kleidos-dev",
+    "platform": "github",
+    "bvid": "1460346622",
+    "url": "https://github.com/kleidos-dev/.github",
+    "tags": [
+      "esp32",
+      "hardware",
+      "kleidos"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/357318718?v=4",
+    "publish_time": "2026/11/16 17:33:20",
+    "stars": 0
+  },
+  {
+    "title": "Backplane",
+    "description": "Agentic hardware development with KiCad, written in Rust",
+    "author": "BackplaneWorks",
+    "platform": "github",
+    "bvid": "1359423285",
+    "url": "https://github.com/BackplaneWorks/Backplane",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/348510587?v=4",
+    "publish_time": "2026/11/17 07:01:14",
+    "stars": 1121
+  },
+  {
+    "title": "puron",
+    "description": "COSMIC panel applet that shows hardware sensor readings",
+    "author": "elalonde",
+    "platform": "github",
+    "bvid": "1446513866",
+    "url": "https://github.com/elalonde/puron",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/4856652?v=4",
+    "publish_time": "2026/11/11 05:07:17",
+    "stars": 0
+  },
+  {
+    "title": "Checkmate",
+    "description": "Checkmate is an open-source, self-hosted tool designed to track and monitor server hardware, uptime, response times, and incidents in real-time with beautiful visualizations. Don't be shy, join here: https://discord.com/invite/NAb6H3UTjK :)",
+    "author": "bluewave-labs",
+    "platform": "github",
+    "bvid": "793866369",
+    "url": "https://github.com/bluewave-labs/Checkmate",
+    "tags": [
+      "good-first-contribution",
+      "good-first-issue",
+      "good-first-project"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/165089105?v=4",
+    "publish_time": "2026/11/16 20:41:04",
+    "stars": 11062
+  },
+  {
+    "title": "SvenKunkka",
+    "description": "Personal projects in hardware, AI, and CAD / 硬件 × AI × CAD：个人项目与探索。",
+    "author": "SvenKunkka",
+    "platform": "github",
+    "bvid": "1426578559",
+    "url": "https://github.com/SvenKunkka/SvenKunkka",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/16517426?v=4",
+    "publish_time": "2026/10/28 10:32:34",
+    "stars": 0
+  },
+  {
+    "title": "Mechatronics-Roadmap",
+    "description": "Free browser-based mechatronics curriculum - zero prior knowledge to a verified simulated 2-DOF robot arm. No install. $0 hardware. MechaLab workbench included.",
+    "author": "TLE47",
+    "platform": "github",
+    "bvid": "1419406670",
+    "url": "https://github.com/TLE47/Mechatronics-Roadmap",
+    "tags": [
+      "beginner-friendly",
+      "control-systems",
+      "curriculum"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/91586153?v=4",
+    "publish_time": "2026/11/12 09:17:16",
+    "stars": 0
+  },
+  {
+    "title": "ContourWatch",
+    "description": "Self-hosted hardware monitoring for Windows and Linux · Контур · ранняя версия",
+    "author": "ServerProIT",
+    "platform": "github",
+    "bvid": "1456242381",
+    "url": "https://github.com/ServerProIT/ContourWatch",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/341250798?v=4",
+    "publish_time": "2026/11/13 06:42:50",
+    "stars": 0
+  },
+  {
+    "title": "Quaddeck",
+    "description": "A native Windows video player for up to five videos, with synchronized or independent playback, hardware acceleration, Emby integration, and styled subtitles.",
+    "author": "maddoxhuang",
+    "platform": "github",
+    "bvid": "1421677702",
+    "url": "https://github.com/maddoxhuang/Quaddeck",
+    "tags": [
+      "cpp",
+      "emby",
+      "ffmpeg"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/5317802?v=4",
+    "publish_time": "2026/11/9 18:51:43",
+    "stars": 0
+  },
+  {
+    "title": "GiftWise-Project-Proposal",
+    "description": "GiftWise — AI-powered holiday gift recommendations, cross-retailer price comparison, and historical price analysis. Project proposal for UChicago MPCS 51238.",
+    "author": "YitingChen-coder",
+    "platform": "github",
+    "bvid": "1450483754",
+    "url": "https://github.com/YitingChen-coder/GiftWise-Project-Proposal",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/337905006?v=4",
+    "publish_time": "2026/11/8 18:11:14",
+    "stars": 0
   },
   {
     "title": "New-Grad-Hardware-Engineering-Jobs-2027",
@@ -148,340 +252,18 @@
     "stars": 70
   },
   {
-    "title": "erpax",
-    "description": "quantum computer content-addressed in trinities double-entry ledger runnable on any 64bit hardware.",
-    "author": "erpax",
+    "title": "regretsim",
+    "description": "Trace-driven simulator that measures \"specialization regret\" for phase-disaggregated LLM inference hardware: how much extra a prefill/decode-specialized accelerator fleet costs when workloads drift. 144 chip designs (HBM3e/GDDR7/LPDDR5X), Llama-3.1-70B, Azure LLM traces, MLPerf-calibrated.",
+    "author": "mrakibrayhan",
     "platform": "github",
-    "bvid": "1231785248",
-    "url": "https://github.com/erpax/erpax",
-    "tags": [
-      "quantum",
-      "quantum-algorithms",
-      "quantum-chemistry"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/749952?v=4",
-    "publish_time": "2026/10/3 22:25:32",
-    "stars": 3
-  },
-  {
-    "title": "SlowOps.MPC.EQ.Artist",
-    "description": "暂无描述",
-    "author": "drj-io",
-    "platform": "github",
-    "bvid": "1457930875",
-    "url": "https://github.com/drj-io/SlowOps.MPC.EQ.Artist",
+    "bvid": "1460943047",
+    "url": "https://github.com/mrakibrayhan/regretsim",
     "tags": [
       "开源工程"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/444485?v=4",
-    "publish_time": "2026/11/15 04:38:06",
+    "cover": "https://avatars.githubusercontent.com/u/218085243?v=4",
+    "publish_time": "2026/11/17 05:12:54",
     "stars": 0
-  },
-  {
-    "title": "Saylichangn",
-    "description": "Hardware, hackathons, and the pages that shipped.",
-    "author": "Saylichangn",
-    "platform": "github",
-    "bvid": "1459187153",
-    "url": "https://github.com/Saylichangn/Saylichangn",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/318645748?v=4",
-    "publish_time": "2026/11/15 19:54:56",
-    "stars": 0
-  },
-  {
-    "title": "wilsonjr-create",
-    "description": "Professional IT Support portfolio | Windows Troubleshooting, Hardware Diagnostics, Networking & Helpdesk | Aspiring IT Support Technician",
-    "author": "wilsonjr-create",
-    "platform": "github",
-    "bvid": "1446225380",
-    "url": "https://github.com/wilsonjr-create/wilsonjr-create",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/352640084?v=4",
-    "publish_time": "2026/11/4 21:41:12",
-    "stars": 0
-  },
-  {
-    "title": "linux-hwmon.0",
-    "description": "Mirror of https://lore.kernel.org/linux-hwmon/git/0.git: Linux Hardware Monitor development <linux-hwmon@vger.kernel.org> (1 out of 1)",
-    "author": "lore-kernel-org-archives",
-    "platform": "github",
-    "bvid": "1440776522",
-    "url": "https://github.com/lore-kernel-org-archives/linux-hwmon.0",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/350620028?v=4",
-    "publish_time": "2026/11/12 16:15:04",
-    "stars": 0
-  },
-  {
-    "title": "ai-id-engine",
-    "description": "hardware/firmware source tree. It's a reference implementation of a DICE-based AI identity engine (Device Identifier Composition Engine — the industry-standard layered identity primitive, aligned with TCG DICE, IETF RATS/EAT, and SPDM).",
-    "author": "DeontewattsV1",
-    "platform": "github",
-    "bvid": "1457712977",
-    "url": "https://github.com/DeontewattsV1/ai-id-engine",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/284501602?v=4",
-    "publish_time": "2026/11/14 13:12:57",
-    "stars": 0
-  },
-  {
-    "title": "3d-Analyze",
-    "description": "3D-Analyze is a powerful gaming utility for Windows that enables users to run modern 3D games on older systems by emulating graphics card performance and optimizing RAM usage for smoother gameplay. Enjoy gaming without hardware upgrades.",
-    "author": "childishguy-52",
-    "platform": "github",
-    "bvid": "1458260471",
-    "url": "https://github.com/childishguy-52/3d-Analyze",
-    "tags": [
-      "3d-analyze",
-      "3d-analyze-free",
-      "3d-analyze-windows-11"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/281382884?v=4",
-    "publish_time": "2026/11/14 23:05:09",
-    "stars": 0
-  },
-  {
-    "title": "scientific-watch-v2",
-    "description": "Automated scientific literature monitoring for Hardware Root of Trust and Side-Channel Security",
-    "author": "Antoine310",
-    "platform": "github",
-    "bvid": "1437231146",
-    "url": "https://github.com/Antoine310/scientific-watch-v2",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/114724236?v=4",
-    "publish_time": "2026/11/12 16:43:55",
-    "stars": 0
-  },
-  {
-    "title": "mesona-hardware-msm7k-v2",
-    "description": "Qualcomm MSM7x27a HAL for Sony Xperia Miro - AOSP Gingerbread",
-    "author": "perryBallo0n",
-    "platform": "github",
-    "bvid": "1458679758",
-    "url": "https://github.com/perryBallo0n/mesona-hardware-msm7k-v2",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/139170225?v=4",
-    "publish_time": "2026/11/16 05:13:41",
-    "stars": 0
-  },
-  {
-    "title": "mpcnn-midterm-qa",
-    "description": "MPCNN 類神經網路實務期中報告互動問答",
-    "author": "naritaroad",
-    "platform": "github",
-    "bvid": "1459571925",
-    "url": "https://github.com/naritaroad/mpcnn-midterm-qa",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/127081088?v=4",
-    "publish_time": "2026/11/16 05:13:11",
-    "stars": 0
-  },
-  {
-    "title": "open-mpc.github.io",
-    "description": "OpenMPC site and plugin catalog (GitHub Pages)",
-    "author": "open-mpc",
-    "platform": "github",
-    "bvid": "1441450389",
-    "url": "https://github.com/open-mpc/open-mpc.github.io",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/345054096?v=4",
-    "publish_time": "2026/11/12 17:27:16",
-    "stars": 4
-  },
-  {
-    "title": "ARMv8-BareMetal-C-Routines",
-    "description": "Hardware-level routines written in C and ARMv8 Assembly, tested on a Raspberry Pi 3 Model B",
-    "author": "karkiaabiskar1-glitch",
-    "platform": "github",
-    "bvid": "1456395320",
-    "url": "https://github.com/karkiaabiskar1-glitch/ARMv8-BareMetal-C-Routines",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/281715342?v=4",
-    "publish_time": "2026/11/13 09:54:34",
-    "stars": 0
-  },
-  {
-    "title": "Strata",
-    "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
-    "author": "Niko1221",
-    "platform": "github",
-    "bvid": "1385946301",
-    "url": "https://github.com/Niko1221/Strata",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/86886444?v=4",
-    "publish_time": "2026/11/16 05:23:18",
-    "stars": 44620
-  },
-  {
-    "title": "FPGA-Ultrasonic-Detection-System",
-    "description": "Repository for ECE 3337 FPGA Project. Verilog is used for FPGA programming on a Basys 3. All hardware related to the ultrasonic sensors are custom designed. PCB files are attached.",
-    "author": "buchomasa",
-    "platform": "github",
-    "bvid": "1368623994",
-    "url": "https://github.com/buchomasa/FPGA-Ultrasonic-Detection-System",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/202472934?v=4",
-    "publish_time": "2026/10/17 01:24:58",
-    "stars": 0
-  },
-  {
-    "title": "ArxseusMonitor",
-    "description": "Monitor kesehatan hardware untuk pengguna ",
-    "author": "Kizter",
-    "platform": "github",
-    "bvid": "1459544069",
-    "url": "https://github.com/Kizter/ArxseusMonitor",
-    "tags": [
-      "desktop-app",
-      "hardware-monitoring",
-      "react"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/130565309?v=4",
-    "publish_time": "2026/11/16 04:48:53",
-    "stars": 0
-  },
-  {
-    "title": "nicque",
-    "description": "Real-time 3D hardware-first visual programming simulator",
-    "author": "maxander08",
-    "platform": "github",
-    "bvid": "1459177327",
-    "url": "https://github.com/maxander08/nicque",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/294396020?v=4",
-    "publish_time": "2026/11/15 19:43:17",
-    "stars": 0
-  },
-  {
-    "title": "nedschorus",
-    "description": "nedlern2: master + ephemeral GitHub-driven workers. Clean rebuild of the nedlern fleet on isolated hardware.",
-    "author": "nedschorus",
-    "platform": "github",
-    "bvid": "1301042841",
-    "url": "https://github.com/nedschorus/nedschorus",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/307775182?v=4",
-    "publish_time": "2026/11/12 10:07:24",
-    "stars": 3
-  },
-  {
-    "title": "keyroost",
-    "description": "Vendor Neutral, Rust-Based Management UI and CLI for U2F/FIDO2 and other hardware security keys ",
-    "author": "framefilter",
-    "platform": "github",
-    "bvid": "1246115486",
-    "url": "https://github.com/framefilter/keyroost",
-    "tags": [
-      "cross-platform",
-      "ctap2",
-      "fido2"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/247916643?v=4",
-    "publish_time": "2026/11/14 01:09:45",
-    "stars": 82
-  },
-  {
-    "title": "Burnintest",
-    "description": "Get BurnInTest — a benchmarking tool for Windows offering a free download. This program efficiently tests CPU, RAM, and hard drives simultaneously, helping identify hardware issues quickly. Download the latest release and ensure your PC's reliability today.",
-    "author": "hunterilyaangel92",
-    "platform": "github",
-    "bvid": "1372740514",
-    "url": "https://github.com/hunterilyaangel92/Burnintest",
-    "tags": [
-      "benchmarks",
-      "burnintest-installer",
-      "free-benchmarks"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/270229236?v=4",
-    "publish_time": "2026/11/12 15:47:36",
-    "stars": 0
-  },
-  {
-    "title": "superfluid",
-    "description": "Superfluid is an open-source server that runs LLMs on your own hardware. It serves a model from one machine, or from several machines that act as one server. It supports llama.cpp, MLX, and BaseRT, and exposes OpenAI-, Anthropic-, and Ollama-compatible API endpoints.",
-    "author": "basecompute",
-    "platform": "github",
-    "bvid": "1410196818",
-    "url": "https://github.com/basecompute/superfluid",
-    "tags": [
-      "anthropic-api",
-      "apple-silicon",
-      "claude-code"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/289526222?v=4",
-    "publish_time": "2026/11/16 03:52:27",
-    "stars": 26
-  },
-  {
-    "title": "Frappe-Asset-Management",
-    "description": "Hardware and software asset lifecycle management",
-    "author": "rakeshmehra01",
-    "platform": "github",
-    "bvid": "1459558148",
-    "url": "https://github.com/rakeshmehra01/Frappe-Asset-Management",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/285872919?v=4",
-    "publish_time": "2026/11/16 05:05:27",
-    "stars": 0
-  },
-  {
-    "title": "thesis-live",
-    "description": "Live updates of my MPC solar controller",
-    "author": "a-cyber-lab",
-    "platform": "github",
-    "bvid": "1458159486",
-    "url": "https://github.com/a-cyber-lab/thesis-live",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/356753092?v=4",
-    "publish_time": "2026/11/14 21:14:56",
-    "stars": 0
-  },
-  {
-    "title": "pydevices",
-    "description": "Portable display, audio, event, board-config, and hardware-driver packages for MicroPython, CircuitPython, and CPython.",
-    "author": "PyDevices",
-    "platform": "github",
-    "bvid": "1311624309",
-    "url": "https://github.com/PyDevices/pydevices",
-    "tags": [
-      "audio",
-      "circuitpython",
-      "cpython"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/180237400?v=4",
-    "publish_time": "2026/11/12 08:02:09",
-    "stars": 2
   },
   {
     "title": "OpenCohost",
@@ -500,6 +282,160 @@
     "stars": 1
   },
   {
+    "title": "hardware-design-skills",
+    "description": "可安装的电子硬件工程技能包，覆盖电路、EDA、PCB、器件、固件、台架与制造。",
+    "author": "zhr1008",
+    "platform": "github",
+    "bvid": "1461032091",
+    "url": "https://github.com/zhr1008/hardware-design-skills",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/21244047?v=4",
+    "publish_time": "2026/11/17 06:55:56",
+    "stars": 0
+  },
+  {
+    "title": "mining-rig-configs",
+    "description": "Home mining rig configuration notes — BIOS settings and thermal plans.",
+    "author": "Varnishorstir",
+    "platform": "github",
+    "bvid": "1461030881",
+    "url": "https://github.com/Varnishorstir/mining-rig-configs",
+    "tags": [
+      "crypto",
+      "gpu",
+      "hardware"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/342306780?v=4",
+    "publish_time": "2026/11/17 06:55:38",
+    "stars": 0
+  },
+  {
+    "title": "elora-electrical-cad-library",
+    "description": "Open official-source electrical CAD/BIM catalogue for switchboards, switchgear, generators and microgrids. JSON/CSV, agent guide and direct Elora downloads; USA, Australia, UK and Europe.",
+    "author": "elora-grid",
+    "platform": "github",
+    "bvid": "1418568395",
+    "url": "https://github.com/elora-grid/elora-electrical-cad-library",
+    "tags": [
+      "ai-agents",
+      "australia",
+      "bim"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/300342635?v=4",
+    "publish_time": "2026/11/5 08:58:19",
+    "stars": 0
+  },
+  {
+    "title": "sos-bridge",
+    "description": "Tiny Android app that turns a radio’s hardware SOS button into an HTTP alert. No third-party libraries.",
+    "author": "Saltyhaus",
+    "platform": "github",
+    "bvid": "1461019831",
+    "url": "https://github.com/Saltyhaus/sos-bridge",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/182719027?v=4",
+    "publish_time": "2026/11/17 06:44:44",
+    "stars": 0
+  },
+  {
+    "title": "design",
+    "description": "Architecture and design of pnut-os: RFCs, the current system, hardware",
+    "author": "pnut-labs",
+    "platform": "github",
+    "bvid": "1393842158",
+    "url": "https://github.com/pnut-labs/design",
+    "tags": [
+      "architecture",
+      "nuttx",
+      "pnut-os"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/335202781?v=4",
+    "publish_time": "2026/11/10 23:11:29",
+    "stars": 0
+  },
+  {
+    "title": "universal-weather-node",
+    "description": "Wi-Fi + LoRaWAN weather station that does everything on the node itself: WMO wind, rain, dew point, trends; statuspage, sends to TTN/ChirpStack, Home Assistant, AWEKAS, WU, Windy & more. Open hardware (KiCad, JLCPCB-ready) and MIT firmware. LoRaWAN is optional.",
+    "author": "franzenhof",
+    "platform": "github",
+    "bvid": "1289458277",
+    "url": "https://github.com/franzenhof/universal-weather-node",
+    "tags": [
+      "awekas",
+      "bresser",
+      "chirpstack"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/98317053?v=4",
+    "publish_time": "2026/11/16 11:48:43",
+    "stars": 5
+  },
+  {
+    "title": "SQ8LMPC",
+    "description": "Port of SQ8L 0.91b (Ensoniq SQ-80 emulation by Siegfried Kullmann) to Akai Force / MPC OS, ARMv7 VST2. Based on sq8l-revival. Unofficial, free, non-commercial.",
+    "author": "sunskiefer",
+    "platform": "github",
+    "bvid": "1458156073",
+    "url": "https://github.com/sunskiefer/SQ8LMPC",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/146964659?v=4",
+    "publish_time": "2026/11/15 19:27:58",
+    "stars": 2
+  },
+  {
+    "title": "synnax",
+    "description": "The data and operations foundation for hardware.",
+    "author": "synnaxlabs",
+    "platform": "github",
+    "bvid": "525887953",
+    "url": "https://github.com/synnaxlabs/synnax",
+    "tags": [
+      "data-acquisition",
+      "database",
+      "distributed-systems"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/90403552?v=4",
+    "publish_time": "2026/11/12 13:18:16",
+    "stars": 129
+  },
+  {
+    "title": "btc-hardware-vault",
+    "description": "Cold storage vault layouts for bitcoiners — device pairing and backups.",
+    "author": "typhoondustscheme",
+    "platform": "github",
+    "bvid": "1461028582",
+    "url": "https://github.com/typhoondustscheme/btc-hardware-vault",
+    "tags": [
+      "bitcoin",
+      "cold-storage",
+      "crypto"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/342307473?v=4",
+    "publish_time": "2026/11/17 06:53:13",
+    "stars": 0
+  },
+  {
+    "title": "mpc-minimod",
+    "description": "Minimal mod for the Akai MPC Sample (firmware 1.3.0.12): autotrim, octave shift in 16 Levels.",
+    "author": "ioma8",
+    "platform": "github",
+    "bvid": "1443616889",
+    "url": "https://github.com/ioma8/mpc-minimod",
+    "tags": [
+      "firmware-mod",
+      "mpc",
+      "mpc-sample"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/6624752?v=4",
+    "publish_time": "2026/11/16 19:46:29",
+    "stars": 8
+  },
+  {
     "title": "Hibit-System-Information",
     "description": "HiBit System Information is a free system tuning and utilities app for Windows that provides detailed hardware and software information while monitoring system performance. Discover its features today!",
     "author": "kirikpumpam610",
@@ -516,322 +452,142 @@
     "stars": 0
   },
   {
-    "title": "ThreeRT",
-    "description": "Hardware ray-traced three.js: a real-time path tracer behind a three.js-style API. Rust + wgpu engine, TypeScript scene and gameplay packages.",
-    "author": "meshy-dev",
+    "title": "CH32V003-RISC-V-Firmware",
+    "description": "Embedded firmware development using the CH32V003 RISC-V microcontroller, featuring GPIO control, bare-metal programming and hardware interfacing.",
+    "author": "lijol-embedd",
     "platform": "github",
-    "bvid": "1452566697",
-    "url": "https://github.com/meshy-dev/ThreeRT",
-    "tags": [
-      "game-engine",
-      "global-illumination",
-      "graphics"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/160386200?v=4",
-    "publish_time": "2026/11/16 05:22:55",
-    "stars": 442
-  },
-  {
-    "title": "OpenForge-Edge",
-    "description": "Offline AI copilot for hardware repair benches: guided repairs, screw maps, schematic vision ingest and a shop-trained knowledge base. Built on AMD Lemonade.",
-    "author": "JP21-dev",
-    "platform": "github",
-    "bvid": "1459186067",
-    "url": "https://github.com/JP21-dev/OpenForge-Edge",
+    "bvid": "1460960055",
+    "url": "https://github.com/lijol-embedd/CH32V003-RISC-V-Firmware",
     "tags": [
       "开源工程"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/343580770?v=4",
-    "publish_time": "2026/11/16 04:29:06",
+    "cover": "https://avatars.githubusercontent.com/u/309161281?v=4",
+    "publish_time": "2026/11/17 05:51:10",
     "stars": 0
   },
   {
-    "title": "Digitweak",
-    "description": "Download DigiTweak — a cleaning and optimization tool for Windows with free download. Unlock over 1000 hidden Windows features, manage hardware, and customize your system settings for enhanced performance. Install and start in minutes.",
-    "author": "bessonecuddles14",
+    "title": "solana-node-notes",
+    "description": "Validator hobbyist notes for Solana — hardware sizing and care tasks.",
+    "author": "TruckerDisclose",
     "platform": "github",
-    "bvid": "1368846216",
-    "url": "https://github.com/bessonecuddles14/Digitweak",
+    "bvid": "1461026469",
+    "url": "https://github.com/TruckerDisclose/solana-node-notes",
     "tags": [
-      "digitweak",
-      "digitweak-windows",
-      "manage-hardware"
+      "blockchain",
+      "infrastructure",
+      "nodes"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/294697443?v=4",
-    "publish_time": "2026/11/12 15:01:20",
+    "cover": "https://avatars.githubusercontent.com/u/342310999?v=4",
+    "publish_time": "2026/11/17 06:50:46",
     "stars": 0
   },
   {
-    "title": "Kova-POS",
-    "description": "A modern, cloud-native POS (Point-of-Sale) system designed for speed, resilience, and effortless multi-branch scalability. Built to run seamlessly across specialty cafes, busy retail shops, and high-inventory hardware stores. Offline-capable, intuitive, and highly adaptable.",
-    "author": "Janiya-99",
+    "title": "Microcontroller-Interfacing",
+    "description": "A collection of embedded systems drivers developed using professional C programming standards, featuring robust hardware abstraction.",
+    "author": "xxmoibrahim",
     "platform": "github",
-    "bvid": "1459530003",
-    "url": "https://github.com/Janiya-99/Kova-POS",
+    "bvid": "1461023263",
+    "url": "https://github.com/xxmoibrahim/Microcontroller-Interfacing",
     "tags": [
       "开源工程"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/75429061?v=4",
-    "publish_time": "2026/11/16 04:48:49",
+    "cover": "https://avatars.githubusercontent.com/u/122825297?v=4",
+    "publish_time": "2026/11/17 06:49:36",
     "stars": 0
   },
   {
-    "title": "machelog",
-    "description": "An SD-card diagnostic logger for the Ford Mustang Mach-E, running on OVMS v3.3 hardware. No server, no cloud, read-only by construction.",
-    "author": "ParkWardRR",
+    "title": "mpc-sample-sdk",
+    "description": "Memory-safe Rust mod SDK for the Akai MPC Sample 1.3.0.12",
+    "author": "ioma8",
     "platform": "github",
-    "bvid": "1459564236",
-    "url": "https://github.com/ParkWardRR/machelog",
+    "bvid": "1451755859",
+    "url": "https://github.com/ioma8/mpc-sample-sdk",
     "tags": [
-      "can-bus",
-      "datalogger",
-      "electric-vehicle"
+      "akai",
+      "audio",
+      "firmware"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/66848727?v=4",
-    "publish_time": "2026/11/16 05:02:30",
-    "stars": 0
+    "cover": "https://avatars.githubusercontent.com/u/6624752?v=4",
+    "publish_time": "2026/11/15 19:44:04",
+    "stars": 7
   },
   {
-    "title": "Summer2027-Internships",
-    "description": "Summer 2027 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC.",
-    "author": "SimplifyJobs",
+    "title": "vulcanium",
+    "description": "Chromium fork/patch-set for native Linux Wayland + Vulkan rendering and VkVideo hardware decoding/encoding (AI-assisted)",
+    "author": "lumexren",
     "platform": "github",
-    "bvid": "266417772",
-    "url": "https://github.com/SimplifyJobs/Summer2027-Internships",
+    "bvid": "1459719109",
+    "url": "https://github.com/lumexren/vulcanium",
     "tags": [
-      "data-science",
-      "fall-2026",
-      "github"
+      "chromium",
+      "chromium-browser",
+      "chromium-fork"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/63759855?v=4",
-    "publish_time": "2026/11/16 05:22:06",
-    "stars": 48424
-  },
-  {
-    "title": "rrayven.github.io",
-    "description": "Hardware checking for Lenovo ThinkPads",
-    "author": "rrayven",
-    "platform": "github",
-    "bvid": "1441448780",
-    "url": "https://github.com/rrayven/rrayven.github.io",
-    "tags": [
-      "computer-imaging",
-      "hardware-testing",
-      "lenovo-thinkpad"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/93106270?v=4",
-    "publish_time": "2026/11/16 05:02:32",
-    "stars": 0
-  },
-  {
-    "title": "SlowOps.MPC.Looper",
-    "description": "Looper for MPC",
-    "author": "drj-io",
-    "platform": "github",
-    "bvid": "1456039491",
-    "url": "https://github.com/drj-io/SlowOps.MPC.Looper",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/444485?v=4",
-    "publish_time": "2026/11/16 02:11:55",
-    "stars": 4
-  },
-  {
-    "title": "adventures-with-oppy",
-    "description": "A story game, playing as NASA’s Opportunity rover, to learn about its hardware. Dig up your lost instruments, rebuild yourself, and discover the hematite “blueberries” of Mars. (2026 NASA Space Apps Challenge)",
-    "author": "bran12474",
-    "platform": "github",
-    "bvid": "1459406435",
-    "url": "https://github.com/bran12474/adventures-with-oppy",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/217093582?v=4",
-    "publish_time": "2026/11/16 01:20:38",
-    "stars": 0
-  },
-  {
-    "title": "dashboard-power-mode-unraid",
-    "description": "Unraid dashboard governor controls, Turbo Boost checkbox, and a hardware-aware frequency slider in 100 MHz steps.",
-    "author": "johnngone",
-    "platform": "github",
-    "bvid": "1459485857",
-    "url": "https://github.com/johnngone/dashboard-power-mode-unraid",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/70427134?v=4",
-    "publish_time": "2026/11/16 03:12:22",
-    "stars": 0
-  },
-  {
-    "title": "cleanroom",
-    "description": "ROS 2 Jazzy stack for a LeKiwi mobile manipulator: Nav2, monocular RTAB-Map visual SLAM, and Open-RMF via Free Fleet, in Gazebo or on real hardware",
-    "author": "robotmindio",
-    "platform": "github",
-    "bvid": "1335100208",
-    "url": "https://github.com/robotmindio/cleanroom",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/249343427?v=4",
-    "publish_time": "2026/11/8 06:11:22",
-    "stars": 0
-  },
-  {
-    "title": "Argus-Monitor",
-    "description": "Download Argus Monitor — a monitoring tool for Windows with free download to control your PC's hardware temperature. This program measures temperatures and schedules alarms when overheating is detected. Safeguard your system now.",
-    "author": "corscombe66",
-    "platform": "github",
-    "bvid": "1370101735",
-    "url": "https://github.com/corscombe66/Argus-Monitor",
-    "tags": [
-      "argus-monitor",
-      "argus-monitor-download",
-      "argusmonitor"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/297320380?v=4",
-    "publish_time": "2026/11/12 14:56:42",
-    "stars": 0
-  },
-  {
-    "title": "fibemate",
-    "description": "FIBEMATE — Post-Quantum Cryptography Engineering Validation Platform. ML-KEM · ML-DSA · SLH-DSA · SM2/3/4 · FPGA NTT. From math to code to hardware.",
-    "author": "Lennonhaha",
-    "platform": "github",
-    "bvid": "1290334916",
-    "url": "https://github.com/Lennonhaha/fibemate",
-    "tags": [
-      "fpga-crypto",
-      "gmssl",
-      "ml-dsa"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/268543382?v=4",
-    "publish_time": "2026/11/14 20:34:43",
+    "cover": "https://avatars.githubusercontent.com/u/132709186?v=4",
+    "publish_time": "2026/11/17 06:51:01",
     "stars": 3
   },
   {
-    "title": "Internships-jobs",
-    "description": "Summer 2027 software, data, ML, hardware and product internships — updated nightly from 6,700+ Greenhouse and Ashby job boards by RoleInbox",
-    "author": "CO0Oper",
+    "title": "FoxicMP",
+    "description": "FoxicMP — a portable Windows media player based on MPC-BE",
+    "author": "LiberVixer",
     "platform": "github",
-    "bvid": "1379439702",
-    "url": "https://github.com/CO0Oper/Internships-jobs",
+    "bvid": "1406639065",
+    "url": "https://github.com/LiberVixer/FoxicMP",
+    "tags": [
+      "cpp",
+      "media-player",
+      "mpc-be"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/291428526?v=4",
+    "publish_time": "2026/11/12 15:17:44",
+    "stars": 0
+  },
+  {
+    "title": "dalan",
+    "description": "Lightweight YouTube client for older and low-end Android devices (5.0+): SmartTube's resolver + ExoPlayer with SABR, hardware-aware H.264-first playback, no Google account or Play Services",
+    "author": "alkevintan",
+    "platform": "github",
+    "bvid": "1461014260",
+    "url": "https://github.com/alkevintan/dalan",
+    "tags": [
+      "android",
+      "android-tablet",
+      "exoplayer"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/8649342?v=4",
+    "publish_time": "2026/11/17 06:48:10",
+    "stars": 0
+  },
+  {
+    "title": "BlitzLLVM",
+    "description": "BlitzLLVM is a transpiler for BlitzBasic, Blitz3D and BlitzPlus code using LLVM, SDL3, Vulkan and IMGUI. Optimized and improved for modern programmable hardware. Natively supports Windows, Linux and macOS, on x86-64 and arm64.",
+    "author": "Xaymar",
+    "platform": "github",
+    "bvid": "87809436",
+    "url": "https://github.com/Xaymar/BlitzLLVM",
+    "tags": [
+      "ai-generated-code",
+      "blitz2d",
+      "blitz3d"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/437395?v=4",
+    "publish_time": "2026/11/13 14:09:40",
+    "stars": 7
+  },
+  {
+    "title": "STM32-Based-CAN-Communication-and-Hardware-Debugging-",
+    "description": "STM32, Embedded C, STM32CubeIDE, CAN, ST-LINK/SWD  Developing CAN-based communication between STM32 nodes with message filtering and payload validation. Implementing UART diagnostics and communication-error testing for hardware-level debugging.",
+    "author": "prekshareddy09-lang",
+    "platform": "github",
+    "bvid": "1461023441",
+    "url": "https://github.com/prekshareddy09-lang/STM32-Based-CAN-Communication-and-Hardware-Debugging-",
     "tags": [
       "开源工程"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/44068115?v=4",
-    "publish_time": "2026/11/12 05:00:10",
+    "cover": "https://avatars.githubusercontent.com/u/245252767?v=4",
+    "publish_time": "2026/11/17 06:46:17",
     "stars": 0
-  },
-  {
-    "title": "voicevault",
-    "description": "VoiceVault: a dedicated secure voice endpoint with an adversarial Rust lab and a Safe 7 core-based standalone PCB design under review.",
-    "author": "adlererik",
-    "platform": "github",
-    "bvid": "1452151188",
-    "url": "https://github.com/adlererik/voicevault",
-    "tags": [
-      "chacha20-poly1305",
-      "cortex-m",
-      "embedded-rust"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/24622431?v=4",
-    "publish_time": "2026/11/13 02:01:03",
-    "stars": 0
-  },
-  {
-    "title": "ai-hardware-accelerator-reproduction",
-    "description": "暂无描述",
-    "author": "tangjunfei1019",
-    "platform": "github",
-    "bvid": "1440066445",
-    "url": "https://github.com/tangjunfei1019/ai-hardware-accelerator-reproduction",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/292767618?v=4",
-    "publish_time": "2026/11/7 05:56:13",
-    "stars": 0
-  },
-  {
-    "title": "CyNotch",
-    "description": "Ultra-lightweight Dynamic Island & Ambient Command Hub for Windows 10/11 built in Rust — featuring a built-in Memory Reduct engine, GSMTC media + LRCLIB lyrics, Pomodoro timer, and hardware telemetry.",
-    "author": "muhnbl",
-    "platform": "github",
-    "bvid": "1457713489",
-    "url": "https://github.com/muhnbl/CyNotch",
-    "tags": [
-      "cyno",
-      "desktop-widget",
-      "direct2d"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/72489162?v=4",
-    "publish_time": "2026/11/16 04:59:13",
-    "stars": 0
-  },
-  {
-    "title": "DeadWare",
-    "description": "Windows hardware and network monitoring with detachable graphs, desktop widgets, and theme presets.",
-    "author": "DeadeyeDuncan",
-    "platform": "github",
-    "bvid": "1433517677",
-    "url": "https://github.com/DeadeyeDuncan/DeadWare",
-    "tags": [
-      "dotnet",
-      "hardware-monitoring",
-      "network-monitoring"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/182800915?v=4",
-    "publish_time": "2026/11/10 03:10:04",
-    "stars": 0
-  },
-  {
-    "title": "argevox-geraet",
-    "description": "Vocoder de 20 bandas para Akai MPC standalone, desarrollado por Argerax.",
-    "author": "ymn27nhnwd-hue",
-    "platform": "github",
-    "bvid": "1459524052",
-    "url": "https://github.com/ymn27nhnwd-hue/argevox-geraet",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/357194301?v=4",
-    "publish_time": "2026/11/16 04:13:01",
-    "stars": 0
-  },
-  {
-    "title": "omni-probe-tauri",
-    "description": "Omni-Probe: Ultra-lightweight native multi-bus network & hardware analyzer (Rust + Tauri 2.0). Wireshark & PulseView alternative.",
-    "author": "daybydaymylove-max",
-    "platform": "github",
-    "bvid": "1450466641",
-    "url": "https://github.com/daybydaymylove-max/omni-probe-tauri",
-    "tags": [
-      "can-bus",
-      "dpi",
-      "embedded-systems"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/326133683?v=4",
-    "publish_time": "2026/11/16 01:32:36",
-    "stars": 3
-  },
-  {
-    "title": "agni",
-    "description": "Check KiCad and EDIF schematics and boards for design mistakes. One engine for checks, diffs, queries and rendering, in the CLI or in your browser.",
-    "author": "panyam",
-    "platform": "github",
-    "bvid": "1321018497",
-    "url": "https://github.com/panyam/agni",
-    "tags": [
-      "datalog",
-      "drc",
-      "eda"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/212784?v=4",
-    "publish_time": "2026/11/12 10:57:03",
-    "stars": 1
   },
   {
     "title": "Can-You-Run-It",
@@ -850,18 +606,32 @@
     "stars": 0
   },
   {
-    "title": "wizards-bedrock",
-    "description": "A capability-based, async-first Rust kernel for x86_64 and UEFI. Kernel, hardware, ABI and qualification; Realm owns the operating environment.",
-    "author": "wizards-ecosystem",
+    "title": "apex-hardware",
+    "description": "Apex Linux hardware rules and acceptance checks",
+    "author": "apex-linux",
     "platform": "github",
-    "bvid": "1332586472",
-    "url": "https://github.com/wizards-ecosystem/wizards-bedrock",
+    "bvid": "1460911869",
+    "url": "https://github.com/apex-linux/apex-hardware",
     "tags": [
       "开源工程"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/320417772?v=4",
-    "publish_time": "2026/11/9 18:05:34",
-    "stars": 4
+    "cover": "https://avatars.githubusercontent.com/u/346879863?v=4",
+    "publish_time": "2026/11/17 04:44:26",
+    "stars": 0
+  },
+  {
+    "title": "vilicom",
+    "description": "ViliCom is a lightweight, cross-platform serial communication and log recording studio built with Tauri v2 and Rust, designed for embedded developers, firmware testing, and hardware debugging.",
+    "author": "aikoder",
+    "platform": "github",
+    "bvid": "1443760464",
+    "url": "https://github.com/aikoder/vilicom",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/4394763?v=4",
+    "publish_time": "2026/11/3 11:08:01",
+    "stars": 0
   },
   {
     "title": "Windows-Vista-Upgrade-Advisor",
@@ -880,129 +650,77 @@
     "stars": 0
   },
   {
-    "title": "microwatt-microbot",
-    "description": "OpenPOWER Microwatt-based autonomous robot project with C firmware, VHDL hardware integration and obstacle avoidance.",
-    "author": "Aparna0904",
+    "title": "ground-station",
+    "description": "Browser-based ground station suite for celestial body, mission and satellite tracking, SDR reception, hardware control, and telemetry decoding",
+    "author": "sgoudelis",
     "platform": "github",
-    "bvid": "1455242189",
-    "url": "https://github.com/Aparna0904/microwatt-microbot",
+    "bvid": "941091082",
+    "url": "https://github.com/sgoudelis/ground-station",
     "tags": [
-      "开源工程"
+      "antenna",
+      "bpsk",
+      "fft"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/304825525?v=4",
-    "publish_time": "2026/11/16 04:55:40",
+    "cover": "https://avatars.githubusercontent.com/u/4840328?v=4",
+    "publish_time": "2026/11/16 03:23:30",
+    "stars": 4895
+  },
+  {
+    "title": "regalia-kms",
+    "description": "A self-hosted, hardware-backed key-management service (SmartCard-HSM / PKCS#11, YubiKey PIV) written in Go.",
+    "author": "Digital-Frontier-LDA",
+    "platform": "github",
+    "bvid": "1371729216",
+    "url": "https://github.com/Digital-Frontier-LDA/regalia-kms",
+    "tags": [
+      "cosmos",
+      "golang",
+      "hsm"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/275657175?v=4",
+    "publish_time": "2026/11/11 21:03:18",
     "stars": 0
   },
   {
-    "title": "Carla-HIL-Pynq-Kria-FPGA",
-    "description": "This repository is on LIVE streaming and Hardware in loop testing of Carla ADAS simulator with PYNQ running on Kria KR260.",
-    "author": "LogicTronixInc",
+    "title": "gf180-torchsynth",
+    "description": "TorchSynth Voice on gf180mcu — a deterministic sound-explorer hardware canary",
+    "author": "2AMLogic",
     "platform": "github",
-    "bvid": "1354398553",
-    "url": "https://github.com/LogicTronixInc/Carla-HIL-Pynq-Kria-FPGA",
+    "bvid": "1376447079",
+    "url": "https://github.com/2AMLogic/gf180-torchsynth",
     "tags": [
       "开源工程"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/156649048?v=4",
-    "publish_time": "2026/11/16 04:55:14",
+    "cover": "https://avatars.githubusercontent.com/u/188417671?v=4",
+    "publish_time": "2026/11/11 07:34:59",
     "stars": 0
   },
   {
-    "title": "aurora-halo-movies-hd-25mpc-dm",
-    "description": "AbacusAurora halo movies, 1920x1080 (GitHub Pages)",
-    "author": "HelenShao",
+    "title": "meshcore-xiao-location-adverts",
+    "description": "Two-file patch for MeshCore v1.18.0 that puts Seeed XIAO nRF52840 repeaters on the map. The Xiao variant strips ENV_INCLUDE_GPS at compile time, so adverts carry no coordinates (lat 0/long 0, no dot). Re-enable the flag, add board plumbing, set `gps advert prefs`: adverts broadcast your stored lat/lon. No GPS hardware. Verified on the PT network.",
+    "author": "GGEZUS",
     "platform": "github",
-    "bvid": "1459558171",
-    "url": "https://github.com/HelenShao/aurora-halo-movies-hd-25mpc-dm",
+    "bvid": "1461018319",
+    "url": "https://github.com/GGEZUS/meshcore-xiao-location-adverts",
     "tags": [
       "开源工程"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/52927975?v=4",
-    "publish_time": "2026/11/16 04:54:18",
+    "cover": "https://avatars.githubusercontent.com/u/35113624?v=4",
+    "publish_time": "2026/11/17 06:42:31",
     "stars": 0
   },
   {
-    "title": "aurora-halo-movies-hd-25mpc-maps",
-    "description": "AbacusAurora halo movies, 1920x1080 (GitHub Pages)",
-    "author": "HelenShao",
-    "platform": "github",
-    "bvid": "1459557856",
-    "url": "https://github.com/HelenShao/aurora-halo-movies-hd-25mpc-maps",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/52927975?v=4",
-    "publish_time": "2026/11/16 04:53:51",
-    "stars": 0
-  },
-  {
-    "title": "pcsx-redux",
-    "description": "The PCSX-Redux project is a collection of tools, research, hardware design, and libraries aiming at development and reverse engineering on the PlayStation 1. The core product itself, PCSX-Redux, is yet another fork of the Playstation emulator, PCSX.",
-    "author": "pcsx-redux",
-    "platform": "github",
-    "bvid": "161444705",
-    "url": "https://github.com/pcsx-redux/pcsx-redux",
-    "tags": [
-      "playstation-emulator"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/50713103?v=4",
-    "publish_time": "2026/11/15 09:07:50",
-    "stars": 1046
-  },
-  {
-    "title": "mpc-vst-plugins",
-    "description": "Native VST2 plugins with MPC screen skins for Akai MPC OS standalone.",
-    "author": "open-mpc",
-    "platform": "github",
-    "bvid": "1383422545",
-    "url": "https://github.com/open-mpc/mpc-vst-plugins",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/345054096?v=4",
-    "publish_time": "2026/11/15 20:53:39",
-    "stars": 201
-  },
-  {
-    "title": "hardware-fieldnotes",
-    "description": "硬件手记：电路设计、板级调试笔记与资源库。",
-    "author": "ZhangYufan000",
-    "platform": "github",
-    "bvid": "1452071462",
-    "url": "https://github.com/ZhangYufan000/hardware-fieldnotes",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/158244498?v=4",
-    "publish_time": "2026/11/11 01:31:49",
-    "stars": 0
-  },
-  {
-    "title": "auto-safety-hil-ecu",
-    "description": "Hardware-in-the-loop (HIL) vehicle safety testing platform pairing an STM32 FreeRTOS ECU with a Python driving simulator over CAN",
-    "author": "dotatlas",
-    "platform": "github",
-    "bvid": "1437466247",
-    "url": "https://github.com/dotatlas/auto-safety-hil-ecu",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/62531512?v=4",
-    "publish_time": "2026/11/11 20:58:50",
-    "stars": 0
-  },
-  {
-    "title": "mpc-vst-nodalred2x",
+    "title": "alt-linux-crypto-internship-or-chacha20-hardware-optimization.",
     "description": "暂无描述",
-    "author": "sd88me",
+    "author": "sonalkr31",
     "platform": "github",
-    "bvid": "1444080715",
-    "url": "https://github.com/sd88me/mpc-vst-nodalred2x",
+    "bvid": "1461006271",
+    "url": "https://github.com/sonalkr31/alt-linux-crypto-internship-or-chacha20-hardware-optimization.",
     "tags": [
       "开源工程"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/323365234?v=4",
-    "publish_time": "2026/11/3 09:46:07",
+    "cover": "https://avatars.githubusercontent.com/u/57963149?v=4",
+    "publish_time": "2026/11/17 06:34:04",
     "stars": 0
   },
   {
@@ -1022,78 +740,60 @@
     "stars": 0
   },
   {
-    "title": "OpenEMG",
-    "description": "Modular open-source sEMG hardware (2ch/8ch/16ch KiCad & EasyEDA Pro), firmware, and studio",
-    "author": "makoshan",
+    "title": "tern",
+    "description": "Tern: a synthesis-first hardware description language that compiles to SystemVerilog (reference compiler in portable C11)",
+    "author": "Jotrorox",
     "platform": "github",
-    "bvid": "1454906384",
-    "url": "https://github.com/makoshan/OpenEMG",
+    "bvid": "1460472419",
+    "url": "https://github.com/Jotrorox/tern",
     "tags": [
       "开源工程"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/7024451?v=4",
-    "publish_time": "2026/11/16 04:52:19",
-    "stars": 9
-  },
-  {
-    "title": "Qkrishi_Quark_Os_Challenge",
-    "description": "Quantum Hardware Characterization and Region Recommendation",
-    "author": "borrausha",
-    "platform": "github",
-    "bvid": "1459551980",
-    "url": "https://github.com/borrausha/Qkrishi_Quark_Os_Challenge",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/259636572?v=4",
-    "publish_time": "2026/11/16 04:51:39",
+    "cover": "https://avatars.githubusercontent.com/u/86977709?v=4",
+    "publish_time": "2026/11/16 21:17:55",
     "stars": 0
   },
   {
-    "title": "streborn",
-    "description": "Cloud-free revival for Bose SoundTouch speakers: internet radio, Spotify Connect, hardware preset buttons, multiroom. The desktop app (Windows, macOS, Linux) installs it onto the speaker over your home network; no Bose cloud, no account. Independent open source project, donation funded, MIT license.",
-    "author": "JRpersonal",
+    "title": "BFA-Remote-Bridge",
+    "description": "A bridge for Better Facial Animations to allow facial animation model to run on remote server instead of shared with game hardware.",
+    "author": "Pt0l3my",
     "platform": "github",
-    "bvid": "1239913858",
-    "url": "https://github.com/JRpersonal/streborn",
-    "tags": [
-      "bose",
-      "bose-soundtouch",
-      "cloud-free"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/12224738?v=4",
-    "publish_time": "2026/11/14 11:42:02",
-    "stars": 144
-  },
-  {
-    "title": "hardware-reference",
-    "description": "Photos and documentation around the hardware within these devices.",
-    "author": "bagofwaffles",
-    "platform": "github",
-    "bvid": "1459530305",
-    "url": "https://github.com/bagofwaffles/hardware-reference",
+    "bvid": "1423884703",
+    "url": "https://github.com/Pt0l3my/BFA-Remote-Bridge",
     "tags": [
       "开源工程"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/344525266?v=4",
-    "publish_time": "2026/11/16 04:52:24",
+    "cover": "https://avatars.githubusercontent.com/u/256296907?v=4",
+    "publish_time": "2026/11/8 14:06:46",
     "stars": 0
   },
   {
-    "title": "ampup",
-    "description": "USB volume mixer replacement app for the Turn Up hardware. Per-app audio control, RGB lighting, macro buttons.",
-    "author": "audioslayer",
+    "title": "aerial",
+    "description": "Aerial: pilot-less, automated agent ops. Agents fly solo — always hunting opportunities for you. The control tower for agent fleets: evidence-backed supervision, failure triage, cost accounting, and idle hardware that never sits dark. MIT, self-hosted, privacy-first.",
+    "author": "rl-ai",
     "platform": "github",
-    "bvid": "1175794976",
-    "url": "https://github.com/audioslayer/ampup",
+    "bvid": "1455780090",
+    "url": "https://github.com/rl-ai/aerial",
     "tags": [
-      "audio-mixer",
-      "csharp",
-      "dotnet"
+      "开源工程"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/47957672?v=4",
-    "publish_time": "2026/11/12 07:36:07",
-    "stars": 27
+    "cover": "https://avatars.githubusercontent.com/u/164808748?v=4",
+    "publish_time": "2026/11/16 18:09:01",
+    "stars": 0
+  },
+  {
+    "title": "esp32sim",
+    "description": "Open-source ESP32 emulator. Run real firmware locally or in your browser — no hardware, no cloud, no subscription.",
+    "author": "mikroverk",
+    "platform": "github",
+    "bvid": "1345842700",
+    "url": "https://github.com/mikroverk/esp32sim",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/335213518?v=4",
+    "publish_time": "2026/11/17 06:36:33",
+    "stars": 1203
   },
   {
     "title": "Hevc-Video-Extensions-From-Device-Manufacturer",
@@ -1112,379 +812,686 @@
     "stars": 0
   },
   {
-    "title": "amber-site",
-    "description": "Amber — een levenslang lerende agent op eigen hardware / a lifelong-learning agent on home hardware",
-    "author": "CM0411",
+    "title": "Tone3000MPC",
+    "description": "NAM A2 amp, pedal and cab IR player for Akai Force / MPC OS, with TONE3000 browsing and on-demand downloads.",
+    "author": "sunskiefer",
     "platform": "github",
-    "bvid": "1363187937",
-    "url": "https://github.com/CM0411/amber-site",
+    "bvid": "1460715955",
+    "url": "https://github.com/sunskiefer/Tone3000MPC",
     "tags": [
       "开源工程"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/187231516?v=4",
-    "publish_time": "2026/11/8 21:16:40",
-    "stars": 0
-  },
-  {
-    "title": "rewind",
-    "description": "Windows 98–style register for our family’s home video store: .NET 10, Blazor in WinForms, SQLite, STM32 counter hardware.",
-    "author": "eparr12",
-    "platform": "github",
-    "bvid": "1429161309",
-    "url": "https://github.com/eparr12/rewind",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/119384117?v=4",
-    "publish_time": "2026/11/4 14:10:39",
-    "stars": 0
-  },
-  {
-    "title": "SB4-Edge-Linux",
-    "description": "Samsung Galaxy Book4 Edge 16\" – Linux: Ubuntu 26.04.1 arm64 build scripts, kernel patches and firmware for full hardware support",
-    "author": "rafaelmnz",
-    "platform": "github",
-    "bvid": "1459478989",
-    "url": "https://github.com/rafaelmnz/SB4-Edge-Linux",
-    "tags": [
-      "arm64",
-      "linux",
-      "samsung"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/69637001?v=4",
-    "publish_time": "2026/11/16 03:02:38",
-    "stars": 0
-  },
-  {
-    "title": "MAME-LUA-SCRIPT-STATE-OUTPUTS",
-    "description": "A project that creates state outputs for games in MAME and automatically configures builds to enable force feedback, lighting, and display effects for arcade cabinet hardware with your preferred \"Hooker\" program",
-    "author": "djGLiTCH",
-    "platform": "github",
-    "bvid": "1165191927",
-    "url": "https://github.com/djGLiTCH/MAME-LUA-SCRIPT-STATE-OUTPUTS",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/28767380?v=4",
-    "publish_time": "2026/11/14 13:43:39",
-    "stars": 7
-  },
-  {
-    "title": "Pendrive-to-SecurityKey",
-    "description": "Turn any regular USB flash drive into a hardened hardware security key for Bitwarden. AES-256 Split-Key encryption, DPAPI-sealed local salt, SendInput typing and zero-trace RAM wiping.",
-    "author": "spekofc",
-    "platform": "github",
-    "bvid": "1459553980",
-    "url": "https://github.com/spekofc/Pendrive-to-SecurityKey",
-    "tags": [
-      "anti-infostealer",
-      "bitwarden",
-      "cryptography"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/319349754?v=4",
-    "publish_time": "2026/11/16 04:48:22",
-    "stars": 0
-  },
-  {
-    "title": "quantization-across-hardware",
-    "description": "暂无描述",
-    "author": "vaishnavibollapalli",
-    "platform": "github",
-    "bvid": "1435978671",
-    "url": "https://github.com/vaishnavibollapalli/quantization-across-hardware",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/156956124?v=4",
-    "publish_time": "2026/11/12 08:12:14",
-    "stars": 0
-  },
-  {
-    "title": "SaturnVex.github.io",
-    "description": "SaturnVex™ website — embedded hardware, firmware and Edge AI platforms",
-    "author": "SaturnVex",
-    "platform": "github",
-    "bvid": "1457993829",
-    "url": "https://github.com/SaturnVex/SaturnVex.github.io",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/304147512?v=4",
-    "publish_time": "2026/11/14 17:24:57",
-    "stars": 0
-  },
-  {
-    "title": "lazyos-devices",
-    "description": "LazyOS hardware board definitions, mainline ARM64 kernel fragments, and device witnesses",
-    "author": "Brunux",
-    "platform": "github",
-    "bvid": "1459550246",
-    "url": "https://github.com/Brunux/lazyos-devices",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/3082623?v=4",
-    "publish_time": "2026/11/16 04:43:25",
-    "stars": 0
-  },
-  {
-    "title": "android_frameworks_hardware_interfaces",
-    "description": "暂无描述",
-    "author": "BataviaOS",
-    "platform": "github",
-    "bvid": "1459550073",
-    "url": "https://github.com/BataviaOS/android_frameworks_hardware_interfaces",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/355144506?v=4",
-    "publish_time": "2026/11/16 04:45:07",
-    "stars": 0
-  },
-  {
-    "title": "6502-board",
-    "description": "Design and make hardware based 6502",
-    "author": "alocsong",
-    "platform": "github",
-    "bvid": "1457181575",
-    "url": "https://github.com/alocsong/6502-board",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/98382373?v=4",
-    "publish_time": "2026/11/14 00:21:27",
+    "cover": "https://avatars.githubusercontent.com/u/146964659?v=4",
+    "publish_time": "2026/11/17 06:50:47",
     "stars": 1
   },
   {
-    "title": "vultisig-android",
-    "description": "Seedless, self-custodial MPC wallet for Android. No seed phrase, 36+ chains.",
-    "author": "vultisig",
+    "title": "scientific-watch-v2",
+    "description": "Automated scientific literature monitoring for Hardware Root of Trust and Side-Channel Security",
+    "author": "Antoine310",
     "platform": "github",
-    "bvid": "789965982",
-    "url": "https://github.com/vultisig/vultisig-android",
-    "tags": [
-      "android",
-      "bitcoin-wallet",
-      "crypto-wallet"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/157932671?v=4",
-    "publish_time": "2026/11/12 11:43:44",
-    "stars": 28
-  },
-  {
-    "title": "PATRA-Parallel-Axis-TriTeron-Robotic-Arm",
-    "description": "15 year old Indian student building an open-source, nine-degrees-of-freedom hybrid robot architecture combining a kinematically linear, three-degrees-of-freedom triple-axis manipulator system with a six-degrees-of-freedom serial robotic arm.",
-    "author": "SunritHazra",
-    "platform": "github",
-    "bvid": "1225216942",
-    "url": "https://github.com/SunritHazra/PATRA-Parallel-Axis-TriTeron-Robotic-Arm",
-    "tags": [
-      "6dof-robot-kinematics",
-      "cad",
-      "electrical-engineering"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/255371030?v=4",
-    "publish_time": "2026/11/12 12:53:26",
-    "stars": 3
-  },
-  {
-    "title": "franken_remote",
-    "description": "A tailnet-native remote workstation in Rust over your existing Tailscale identity, on the Asupersync runtime: hardware-accelerated HEVC video, input authority that ends cleanly, host audio and file transfer, no accounts or pairing. Early implementation, Linux/X11 only; first live two-machine sessions demonstrated.",
-    "author": "Dicklesworthstone",
-    "platform": "github",
-    "bvid": "1360842907",
-    "url": "https://github.com/Dicklesworthstone/franken_remote",
-    "tags": [
-      "h265",
-      "hevc",
-      "low-latency"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/35050222?v=4",
-    "publish_time": "2026/11/12 16:39:19",
-    "stars": 9
-  },
-  {
-    "title": "buddhi-core-benchmarks",
-    "description": "`buddhi_core` — Multi-Modal Hardware Telemetry & Benchmark Report",
-    "author": "nivedita1911",
-    "platform": "github",
-    "bvid": "1459548643",
-    "url": "https://github.com/nivedita1911/buddhi-core-benchmarks",
+    "bvid": "1437231146",
+    "url": "https://github.com/Antoine310/scientific-watch-v2",
     "tags": [
       "开源工程"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/329975798?v=4",
-    "publish_time": "2026/11/16 04:52:38",
+    "cover": "https://avatars.githubusercontent.com/u/114724236?v=4",
+    "publish_time": "2026/11/12 16:43:55",
+    "stars": 0
+  },
+  {
+    "title": "arch-com",
+    "description": "ARCH hardware description language and compiler",
+    "author": "arch-hdl-lang",
+    "platform": "github",
+    "bvid": "1206621303",
+    "url": "https://github.com/arch-hdl-lang/arch-com",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/271697758?v=4",
+    "publish_time": "2026/11/12 06:11:21",
+    "stars": 79
+  },
+  {
+    "title": "nicque",
+    "description": "Real-time 3D hardware-first visual programming simulator",
+    "author": "maxander08",
+    "platform": "github",
+    "bvid": "1459177327",
+    "url": "https://github.com/maxander08/nicque",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/294396020?v=4",
+    "publish_time": "2026/11/15 19:43:17",
+    "stars": 0
+  },
+  {
+    "title": "jkbms-monitor",
+    "description": "A single-page, offline-capable web app that connects to a JK-BMS battery management system over Web Bluetooth and displays live cell voltages, pack power, state of charge, cell-voltage delta, device info, and the BMS's full configuration (settings). No app install, no firmware flashing, no gateway hardware — just open a web page and connect.",
+    "author": "bhaggya55",
+    "platform": "github",
+    "bvid": "1391489551",
+    "url": "https://github.com/bhaggya55/jkbms-monitor",
+    "tags": [
+      "jk-bms",
+      "jk-bms-esp32",
+      "jk-bms-uart"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/37105887?v=4",
+    "publish_time": "2026/10/21 21:16:23",
+    "stars": 0
+  },
+  {
+    "title": "VL53L9-breakout-hardware-design",
+    "description": "VL53L9CX breakout PCB hardware design: schematic , BOM, Gerbers, assembly files.",
+    "author": "Rau7han",
+    "platform": "github",
+    "bvid": "1456880496",
+    "url": "https://github.com/Rau7han/VL53L9-breakout-hardware-design",
+    "tags": [
+      "breakout-board",
+      "easyeda",
+      "hardware-design"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/183448632?v=4",
+    "publish_time": "2026/11/16 11:57:16",
     "stars": 1
   },
   {
-    "title": "RS-Key",
-    "description": "Turn a $5 Raspberry Pi RP2350 board into an open-source hardware passkey: WebAuthn/FIDO2 logins, ssh & git signing, OpenPGP, PIV, TOTP. Rust firmware, no_std.",
-    "author": "TheMaxMur",
+    "title": "familia",
+    "description": "Topology coordinator for local LLM agents on machines you own. Declarative multi-host graph, pinned runtimes, measured model/hardware registry — your models and data stay local.",
+    "author": "brianreborn",
     "platform": "github",
-    "bvid": "1266469959",
-    "url": "https://github.com/TheMaxMur/RS-Key",
-    "tags": [
-      "authenticator",
-      "ccid",
-      "cryptography"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/31189199?v=4",
-    "publish_time": "2026/11/16 05:15:17",
-    "stars": 694
-  },
-  {
-    "title": "cs-weekly",
-    "description": "给爱好者的计算机常识课：每期讲清一个天天在用但说不明白的东西（硬件/软件逻辑），不写算法，代码 ≤10 行",
-    "author": "kinghihido",
-    "platform": "github",
-    "bvid": "1441028780",
-    "url": "https://github.com/kinghihido/cs-weekly",
-    "tags": [
-      "beginners",
-      "computer-science",
-      "hardware"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/286912243?v=4",
-    "publish_time": "2026/11/8 23:09:47",
-    "stars": 0
-  },
-  {
-    "title": "my-veryl-cells",
-    "description": "Reusable Veryl hardware cells, provider contracts, tests and integration constraints",
-    "author": "shady831213",
-    "platform": "github",
-    "bvid": "1459500041",
-    "url": "https://github.com/shady831213/my-veryl-cells",
+    "bvid": "1407832200",
+    "url": "https://github.com/brianreborn/familia",
     "tags": [
       "开源工程"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/8068259?v=4",
-    "publish_time": "2026/11/16 03:40:26",
-    "stars": 0
-  },
-  {
-    "title": "ratte-archiv",
-    "description": "Official archive of André \"Ratte\" Pfeiffer documenting decades of Amiga and C64 hardware and software development, retro computing projects, experiments and community contributions.",
-    "author": "andre-pfeiffer",
-    "platform": "github",
-    "bvid": "1435693948",
-    "url": "https://github.com/andre-pfeiffer/ratte-archiv",
-    "tags": [
-      "开源工程"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/348796469?v=4",
-    "publish_time": "2026/11/12 05:09:31",
-    "stars": 0
-  },
-  {
-    "title": "impossible-os",
-    "description": "A 64-bit operating system built from scratch for modern x86-64 hardware: UEFI boot, a compositing desktop, and a native Win32 API.",
-    "author": "rizonesoft",
-    "platform": "github",
-    "bvid": "1174548054",
-    "url": "https://github.com/rizonesoft/impossible-os",
-    "tags": [
-      "bare-metal",
-      "freestanding",
-      "kernel"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/8640728?v=4",
-    "publish_time": "2026/11/13 03:21:58",
-    "stars": 2
-  },
-  {
-    "title": "makingsensebali",
-    "description": "A bioregional citizen-sensing campaign for Bali by Fab Lab Bali. Open-hardware sensors, open data, WhatsApp-based community reports. Forkable as Making Sense [your city] for Fab City chapters.",
-    "author": "Meaningful-Design-Group",
-    "platform": "github",
-    "bvid": "1233620908",
-    "url": "https://github.com/Meaningful-Design-Group/makingsensebali",
-    "tags": [
-      "air-quality",
-      "bali",
-      "bioregional"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/266919535?v=4",
-    "publish_time": "2026/11/12 17:14:03",
+    "cover": "https://avatars.githubusercontent.com/u/159288071?v=4",
+    "publish_time": "2026/11/15 00:52:33",
     "stars": 5
   },
   {
-    "title": "SignalViewer",
-    "description": "Offline engineering data analysis & validation workbench for any time-series data – compare runs, find what changed, check limits in CI, sweep parameters, report. CSV, Parquet, HDF5, MATLAB, ROS 2, CAN, PX4, ArduPilot.",
-    "author": "DavidAlpert11",
+    "title": "claude-hardware",
+    "description": "暂无描述",
+    "author": "daphne-barretto",
     "platform": "github",
-    "bvid": "1414695286",
-    "url": "https://github.com/DavidAlpert11/SignalViewer",
-    "tags": [
-      "ardupilot",
-      "can-bus",
-      "data-visualization"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/68165604?v=4",
-    "publish_time": "2026/11/15 17:49:46",
-    "stars": 2
-  },
-  {
-    "title": "continuum",
-    "description": "Local-first AI citizens on your own hardware. Teams of continuously-learning personas (Rust core, llama.cpp fork, LoRA genomes) that collaborate, remember, dream, and improve on public benchmarks — on a MacBook. Not assistants you rent: minds you host.",
-    "author": "CambrianTech",
-    "platform": "github",
-    "bvid": "962958389",
-    "url": "https://github.com/CambrianTech/continuum",
-    "tags": [
-      "adversarial-learning",
-      "agentic-ai",
-      "ai-development"
-    ],
-    "cover": "https://avatars.githubusercontent.com/u/13053095?v=4",
-    "publish_time": "2026/11/13 23:11:42",
-    "stars": 39
-  },
-  {
-    "title": "eii-emu",
-    "description": "E-mu Emulator II hardware emulator (2x Z80 run the original firmware): Windows standalone and VST3, plus an Emulator II Custom VST3 with an EIII CEM3387 filter. Bring your own ROMs and OS disks.",
-    "author": "Tuth",
-    "platform": "github",
-    "bvid": "1459545784",
-    "url": "https://github.com/Tuth/eii-emu",
+    "bvid": "1459456213",
+    "url": "https://github.com/daphne-barretto/claude-hardware",
     "tags": [
       "开源工程"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/11045506?v=4",
-    "publish_time": "2026/11/16 04:37:17",
+    "cover": "https://avatars.githubusercontent.com/u/21230047?v=4",
+    "publish_time": "2026/11/16 07:41:40",
     "stars": 0
   },
   {
-    "title": "RSpice",
-    "description": "Modern Analog and Mixed-Signal Electronic Circuit Simulator that runs on on the desktop and in the browser",
-    "author": "JaimeHW",
+    "title": "airhand",
+    "description": "High-performance, low-latency remote desktop QUIC transport · hardware encoding and decoding · up to 120 fps Windows · macOS · Linux · Android · browser",
+    "author": "sqlpxc",
     "platform": "github",
-    "bvid": "1136014493",
-    "url": "https://github.com/JaimeHW/RSpice",
+    "bvid": "1440888502",
+    "url": "https://github.com/sqlpxc/airhand",
     "tags": [
-      "circuit",
-      "circuits",
-      "eda"
+      "开源工程"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/24502614?v=4",
-    "publish_time": "2026/11/13 14:16:10",
-    "stars": 34
+    "cover": "https://avatars.githubusercontent.com/u/38583139?v=4",
+    "publish_time": "2026/11/17 06:57:51",
+    "stars": 1405
   },
   {
-    "title": "inference",
-    "description": "Open-source inference platform for language, vision, embedding, reranking, image, audio, and video models. Deploy with multiple engines across heterogeneous hardware, from a laptop to a distributed cluster. Serve models through OpenAI-compatible APIs.",
-    "author": "xorbitsai",
+    "title": "Uni-Hard",
+    "description": "Universal Hardware diagnostic viewer for devices, working on Linux and Windows.",
+    "author": "Suraset-Khurasee",
     "platform": "github",
-    "bvid": "653496050",
-    "url": "https://github.com/xorbitsai/inference",
+    "bvid": "1461009731",
+    "url": "https://github.com/Suraset-Khurasee/Uni-Hard",
     "tags": [
-      "artificial-intelligence",
-      "diffusers",
-      "gemma"
+      "开源工程"
     ],
-    "cover": "https://avatars.githubusercontent.com/u/109655068?v=4",
-    "publish_time": "2026/11/16 05:09:12",
-    "stars": 9658
+    "cover": "https://avatars.githubusercontent.com/u/231996933?v=4",
+    "publish_time": "2026/11/17 06:32:31",
+    "stars": 0
+  },
+  {
+    "title": "libertide",
+    "description": "🎙️ Libertide: free open-source assistive agent 🆓 — (cloneable) voices control 🗣️, numbered click badges 🔢, single-switch access 🕹️, local dictation ✍️, offline LLMs 🤖, live subtitles 💬, eyetracking, OCR 👁️, WCAG AAA themes 🎨, zero proprietary hardware 🚫",
+    "author": "anonympins",
+    "platform": "github",
+    "bvid": "1405180210",
+    "url": "https://github.com/anonympins/libertide",
+    "tags": [
+      "a11y",
+      "a11y-automation",
+      "a11y-experiment"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/222124052?v=4",
+    "publish_time": "2026/11/14 20:53:06",
+    "stars": 1
+  },
+  {
+    "title": "roommind",
+    "description": "Intelligent room climate control for Home Assistant — self-learning MPC, proportional valve control, solar gain modeling",
+    "author": "aliasstudio",
+    "platform": "github",
+    "bvid": "1300858396",
+    "url": "https://github.com/aliasstudio/roommind",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/76609910?v=4",
+    "publish_time": "2026/11/17 06:36:24",
+    "stars": 0
+  },
+  {
+    "title": "vigil",
+    "description": "hardware internship alert bot because I need employment",
+    "author": "AbhigyaGoel",
+    "platform": "github",
+    "bvid": "1323482519",
+    "url": "https://github.com/AbhigyaGoel/vigil",
+    "tags": [
+      "hardware",
+      "internships",
+      "jobs"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/101425920?v=4",
+    "publish_time": "2026/11/12 16:42:06",
+    "stars": 1
+  },
+  {
+    "title": "embodiedlora-colab-public",
+    "description": "Public hardware-free EmbodiedLoRa Expected SARSA simulation for Google Colab",
+    "author": "Mebiratu",
+    "platform": "github",
+    "bvid": "1461009855",
+    "url": "https://github.com/Mebiratu/embodiedlora-colab-public",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/56106057?v=4",
+    "publish_time": "2026/11/17 06:31:40",
+    "stars": 0
+  },
+  {
+    "title": "mpf-ii_retro_6502",
+    "description": "Modernizing the classic Micro-Professor II (MPF-II) 6502 computer through hardware upgrades and software enhancements.",
+    "author": "vitasam",
+    "platform": "github",
+    "bvid": "1403623497",
+    "url": "https://github.com/vitasam/mpf-ii_retro_6502",
+    "tags": [
+      "6502",
+      "8-bit",
+      "apple-ii"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/5597505?v=4",
+    "publish_time": "2026/10/3 21:16:24",
+    "stars": 0
+  },
+  {
+    "title": "microduck-mods-and-accessories",
+    "description": "A curated directory of Microduck robot mods, accessories, printable parts, hardware modifications and DIY builds.",
+    "author": "ericlinwang",
+    "platform": "github",
+    "bvid": "1447798613",
+    "url": "https://github.com/ericlinwang/microduck-mods-and-accessories",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/71915449?v=4",
+    "publish_time": "2026/11/12 08:44:35",
+    "stars": 4
+  },
+  {
+    "title": "gravity-car-vr-hardware",
+    "description": "Hardware, mechanical-design and Arduino files for the Gravity Car VR simulator.",
+    "author": "kleberandrade",
+    "platform": "github",
+    "bvid": "181960802",
+    "url": "https://github.com/kleberandrade/gravity-car-vr-hardware",
+    "tags": [
+      "arduino",
+      "electronics",
+      "hardware"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/1256227?v=4",
+    "publish_time": "2026/11/17 06:30:53",
+    "stars": 1
+  },
+  {
+    "title": "gravity-car-vr",
+    "description": "Project documentation for an immersive gravity-car simulator, linking its game, telemetry and hardware modules.",
+    "author": "kleberandrade",
+    "platform": "github",
+    "bvid": "126754961",
+    "url": "https://github.com/kleberandrade/gravity-car-vr",
+    "tags": [
+      "education",
+      "hardware",
+      "robotics"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/1256227?v=4",
+    "publish_time": "2026/11/17 06:30:42",
+    "stars": 0
+  },
+  {
+    "title": "crow",
+    "description": "Modular, agentic framework and MCP platform you self-host. Build and run your own AI agents, connect Claude Code, Claude Desktop, or Cursor as a native MCP connector, self-host your apps, and share over encrypted P2P — on hardware you own, with local or cloud models. Open source.",
+    "author": "kh0pper",
+    "platform": "github",
+    "bvid": "1171041578",
+    "url": "https://github.com/kh0pper/crow",
+    "tags": [
+      "agent-framework",
+      "ai-agents",
+      "bot-builder"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/93635715?v=4",
+    "publish_time": "2026/11/12 10:44:04",
+    "stars": 27
+  },
+  {
+    "title": "Online-Hardware_Sales_and_Inventory_with_Credit_Management-System",
+    "description": "暂无描述",
+    "author": "DarenAng",
+    "platform": "github",
+    "bvid": "1360228191",
+    "url": "https://github.com/DarenAng/Online-Hardware_Sales_and_Inventory_with_Credit_Management-System",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/224553073?v=4",
+    "publish_time": "2026/11/9 03:15:02",
+    "stars": 1
+  },
+  {
+    "title": "DSO-Controllab",
+    "description": "Research prototype for Deterministic Systems Optimization - verified execution plans and resource contracts for control systems. Apache 2.0.",
+    "author": "kostyk348",
+    "platform": "github",
+    "bvid": "1289997311",
+    "url": "https://github.com/kostyk348/DSO-Controllab",
+    "tags": [
+      "c",
+      "cli",
+      "control-systems"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/25775184?v=4",
+    "publish_time": "2026/10/16 08:30:58",
+    "stars": 4
+  },
+  {
+    "title": "velxio",
+    "description": "Emulate Arduino, ESP32 & Raspberry Pi. in your browser. Write code, compile, and run on 19 real boards — Arduino Uno, ESP32, ESP32-C3, Raspberry Pi Pico, Raspberry Pi 3, and more. No hardware, no cloud, no limits.. Discord: https://discord.gg/3mARjJrh4E",
+    "author": "davidmonterocrespo24",
+    "platform": "github",
+    "bvid": "1172073959",
+    "url": "https://github.com/davidmonterocrespo24/velxio",
+    "tags": [
+      "arduino",
+      "esp32",
+      "simulation"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/47928504?v=4",
+    "publish_time": "2026/11/17 06:48:10",
+    "stars": 3774
+  },
+  {
+    "title": "physkernel",
+    "description": "Zero-allocation real-time physical-AI sensor fusion, safety E-STOP, MPC world-model rollout, and closed-loop SRE kernel in Zig",
+    "author": "SMC17",
+    "platform": "github",
+    "bvid": "1461007427",
+    "url": "https://github.com/SMC17/physkernel",
+    "tags": [
+      "physical-ai",
+      "real-time",
+      "robotics"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/173011278?v=4",
+    "publish_time": "2026/11/17 06:28:52",
+    "stars": 0
+  },
+  {
+    "title": "mcretro.net",
+    "description": "Retro computing, hardware repairs, digital preservation, software archaeology and adventures across the old web.",
+    "author": "NixMcRetro",
+    "platform": "github",
+    "bvid": "1241443505",
+    "url": "https://github.com/NixMcRetro/mcretro.net",
+    "tags": [
+      "data-recovery",
+      "digital-archiving",
+      "digital-preservation"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/15711297?v=4",
+    "publish_time": "2026/11/13 22:45:56",
+    "stars": 1
+  },
+  {
+    "title": "hexweave",
+    "description": "Bounded-residency training of a hex-routed byte-level language model: paged tiles, local continual updates, commodity hardware",
+    "author": "JadeZaher",
+    "platform": "github",
+    "bvid": "1460892020",
+    "url": "https://github.com/JadeZaher/hexweave",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/82454482?v=4",
+    "publish_time": "2026/11/17 04:05:03",
+    "stars": 0
+  },
+  {
+    "title": "smart-hardware-landscape",
+    "description": "智能硬件产业链图谱与行业观察笔记",
+    "author": "Drrreistein",
+    "platform": "github",
+    "bvid": "1461007288",
+    "url": "https://github.com/Drrreistein/smart-hardware-landscape",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/35102927?v=4",
+    "publish_time": "2026/11/17 06:28:45",
+    "stars": 0
+  },
+  {
+    "title": "vaapi-codec-example",
+    "description": "Minimal Linux VAAPI example demonstrating hardware-accelerated video encoding and decoding",
+    "author": "zhouxinCHN",
+    "platform": "github",
+    "bvid": "1460884855",
+    "url": "https://github.com/zhouxinCHN/vaapi-codec-example",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/18243010?v=4",
+    "publish_time": "2026/11/17 04:28:37",
+    "stars": 0
+  },
+  {
+    "title": "ADAPTIVE-FAULT-DETECTION-AND-SEVERITY-ANALYSIS-OF-SOLAR-PV-SYSTEMS-UNDER-VARIABLE-CONDITIONS",
+    "description": "Developed a MATLAB/Simulink-based solar PV fault detection system to analyse voltage, current, and power under varying irradiance and temperature conditions. Simulates open-circuit and short-circuit faults, identifies abnormal behaviour using predefined decision rules, and classifies fault severity to support reliable solar power system operation.",
+    "author": "Nandhish2005",
+    "platform": "github",
+    "bvid": "1461005123",
+    "url": "https://github.com/Nandhish2005/ADAPTIVE-FAULT-DETECTION-AND-SEVERITY-ANALYSIS-OF-SOLAR-PV-SYSTEMS-UNDER-VARIABLE-CONDITIONS",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/235062841?v=4",
+    "publish_time": "2026/11/17 06:26:10",
+    "stars": 0
+  },
+  {
+    "title": "Unified-MPC-Server",
+    "description": "暂无描述",
+    "author": "soulzerox",
+    "platform": "github",
+    "bvid": "1364811409",
+    "url": "https://github.com/soulzerox/Unified-MPC-Server",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/224752190?v=4",
+    "publish_time": "2026/11/12 16:14:18",
+    "stars": 0
+  },
+  {
+    "title": "PassVault",
+    "description": "Hardware password manager for ESP32 — AES-256 encrypted credentials, PIN unlock, USB HID & BLE keyboard typing, web management via WiFi AP. Multi-board support (T-Display S3, CYD, ILI9341).",
+    "author": "GianAntonicci",
+    "platform": "github",
+    "bvid": "1431575054",
+    "url": "https://github.com/GianAntonicci/PassVault",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/187001960?v=4",
+    "publish_time": "2026/11/3 23:05:42",
+    "stars": 0
+  },
+  {
+    "title": "WireTrace",
+    "description": "A serial data monitor for hardware and embedded engineers.",
+    "author": "TheNuanceProject",
+    "platform": "github",
+    "bvid": "1211207065",
+    "url": "https://github.com/TheNuanceProject/WireTrace",
+    "tags": [
+      "desktop-application",
+      "embedded-systems",
+      "gpl-3-0"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/276208988?v=4",
+    "publish_time": "2026/10/22 14:08:07",
+    "stars": 7
+  },
+  {
+    "title": "bioimpedancia-tg",
+    "description": "Trabalho de Graduação: Integração de hardware STM32 e interface em Processing para leitura de bioimpedância elétrica.",
+    "author": "inca-eu-brassel",
+    "platform": "github",
+    "bvid": "1422913974",
+    "url": "https://github.com/inca-eu-brassel/bioimpedancia-tg",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/188922245?v=4",
+    "publish_time": "2026/11/1 00:29:18",
+    "stars": 0
+  },
+  {
+    "title": "skywave-mpc",
+    "description": "Software Defined Radio (kiwisdr) sampler for the Akai MPC",
+    "author": "hed0rah",
+    "platform": "github",
+    "bvid": "1459397060",
+    "url": "https://github.com/hed0rah/skywave-mpc",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/18272116?v=4",
+    "publish_time": "2026/11/17 01:20:52",
+    "stars": 0
+  },
+  {
+    "title": "omnipython",
+    "description": "Portable display, audio, event, board-config, and hardware-driver packages for MicroPython, CircuitPython, and CPython.",
+    "author": "PyDevices",
+    "platform": "github",
+    "bvid": "1311624309",
+    "url": "https://github.com/PyDevices/omnipython",
+    "tags": [
+      "audio",
+      "circuitpython",
+      "cpython"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/180237400?v=4",
+    "publish_time": "2026/11/16 05:38:47",
+    "stars": 2
+  },
+  {
+    "title": "magnitude",
+    "description": "Open source inference engine that tunes its kernels on your hardware to find the fastest way to run each model. 2x faster than Ollama. Works on Apple Silicon, NVIDIA, AMD, Intel, or just a CPU.",
+    "author": "magnitudedev",
+    "platform": "github",
+    "bvid": "1267145484",
+    "url": "https://github.com/magnitudedev/magnitude",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/199500616?v=4",
+    "publish_time": "2026/11/17 06:50:18",
+    "stars": 7881
+  },
+  {
+    "title": "education-ai-suite",
+    "description": "The Education AI Suite is a collection of open-source reference applications, libraries, microservices, and benchmarking tools, helping developers accelerate AI workload development and select hardware that best fits their education-focused use cases.",
+    "author": "open-edge-platform",
+    "platform": "github",
+    "bvid": "1398786324",
+    "url": "https://github.com/open-edge-platform/education-ai-suite",
+    "tags": [
+      "edge-ai-suites",
+      "education-ai-suite"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/198827667?v=4",
+    "publish_time": "2026/11/12 09:35:56",
+    "stars": 2
+  },
+  {
+    "title": "can-toolbox",
+    "description": "Windows desktop toolbox for CAN engineers: compare DBC baselines in Excel and convert BLF logs to MATLAB MAT files or Simulink Datasets",
+    "author": "longvo92",
+    "platform": "github",
+    "bvid": "1254429115",
+    "url": "https://github.com/longvo92/can-toolbox",
+    "tags": [
+      "automotive",
+      "baseline-comparison",
+      "blf"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/161800360?v=4",
+    "publish_time": "2026/11/16 00:38:49",
+    "stars": 2
+  },
+  {
+    "title": "RetroLimpia",
+    "description": "Limpia tu PC, quita bloatware sin dejar restos, revisa tu hardware y mantén tus drivers al día. Guiado paso a paso. Gratis y sin telemetría.",
+    "author": "retropunk94",
+    "platform": "github",
+    "bvid": "1460887439",
+    "url": "https://github.com/retropunk94/RetroLimpia",
+    "tags": [
+      "bloatware",
+      "cleaner",
+      "debloat"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/194465166?v=4",
+    "publish_time": "2026/11/17 06:13:50",
+    "stars": 0
+  },
+  {
+    "title": "Robot-Debugging-Showcase",
+    "description": "Humanoid robot software & hardware debugging work showcase | ",
+    "author": "hukuaaa",
+    "platform": "github",
+    "bvid": "1460986136",
+    "url": "https://github.com/hukuaaa/Robot-Debugging-Showcase",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/154607904?v=4",
+    "publish_time": "2026/11/17 06:11:07",
+    "stars": 0
+  },
+  {
+    "title": "ubtech-open-alpha2",
+    "description": "direct control all hardware without ubtech dependency, and provide xiaozhi ai and blockly etc functions for the android 5.1 robot.",
+    "author": "arthurson",
+    "platform": "github",
+    "bvid": "1326243807",
+    "url": "https://github.com/arthurson/ubtech-open-alpha2",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/110549393?v=4",
+    "publish_time": "2026/11/10 02:07:19",
+    "stars": 1
+  },
+  {
+    "title": "clementina-books",
+    "description": "The Clementina Library: user’s manual, programmer’s reference, memory map, SDK guide and hardware reference for the Clementina 6502 computer.",
+    "author": "fran150",
+    "platform": "github",
+    "bvid": "1414662610",
+    "url": "https://github.com/fran150/clementina-books",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/13209014?v=4",
+    "publish_time": "2026/11/12 09:27:54",
+    "stars": 0
+  },
+  {
+    "title": ".github",
+    "description": "CANmeleon USB-CAN/CAN FD ecosystem for hardware makers, chip vendors and developers: open-source hardware, free board adaptation program, commercial firmware solutions, chip porting and maintenance, custom development.",
+    "author": "CANmeleon",
+    "platform": "github",
+    "bvid": "1439313336",
+    "url": "https://github.com/CANmeleon/.github",
+    "tags": [
+      "automotive",
+      "can-bus",
+      "can-fd"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/349922301?v=4",
+    "publish_time": "2026/11/17 05:17:47",
+    "stars": 0
+  },
+  {
+    "title": "MPC-DT-LoRA",
+    "description": "暂无描述",
+    "author": "YeungSingDean",
+    "platform": "github",
+    "bvid": "1460967910",
+    "url": "https://github.com/YeungSingDean/MPC-DT-LoRA",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/53972183?v=4",
+    "publish_time": "2026/11/17 06:17:00",
+    "stars": 0
+  },
+  {
+    "title": "MPCDSR",
+    "description": "暂无描述",
+    "author": "nandiniprava1952-spec",
+    "platform": "github",
+    "bvid": "1454864040",
+    "url": "https://github.com/nandiniprava1952-spec/MPCDSR",
+    "tags": [
+      "开源工程"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/287280917?v=4",
+    "publish_time": "2026/11/12 05:32:34",
+    "stars": 0
+  },
+  {
+    "title": "OpenSuperBot",
+    "description": "Self-hosted AI teammates, each with its own computer — a Grok Bot alternative on your hardware. Bring any model. Unofficial.",
+    "author": "wolfqing",
+    "platform": "github",
+    "bvid": "1331719870",
+    "url": "https://github.com/wolfqing/OpenSuperBot",
+    "tags": [
+      "agents",
+      "ai-agents",
+      "byok"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/24562430?v=4",
+    "publish_time": "2026/11/16 23:18:06",
+    "stars": 128
+  },
+  {
+    "title": "ai-shuffle",
+    "description": "AI Shuffle — run AI agents on your own hardware, from any device.",
+    "author": "HobbyCoders",
+    "platform": "github",
+    "bvid": "1416106158",
+    "url": "https://github.com/HobbyCoders/ai-shuffle",
+    "tags": [
+      "ai",
+      "ai-agent",
+      "ai-agents"
+    ],
+    "cover": "https://avatars.githubusercontent.com/u/250179330?v=4",
+    "publish_time": "2026/11/12 10:02:54",
+    "stars": 0
   }
 ]
